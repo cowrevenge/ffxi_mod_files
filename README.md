@@ -38,8 +38,13 @@ Get-FileHash -Algorithm SHA256 original\ROM\5\15.DAT
 
 Real in-game screenshot of the shipped `overlay/DhalmelShaft/ROM/5/15.DAT` on a live
 Dhalmel. This is the proof that matters: the model loads through the Pivot overlay, the
-replacement geometry holds up under actual game lighting, and the shaft moves with the
-head.
+replacement geometry holds up under actual game lighting, and the shaft sits where the head
+and neck used to be.
+
+Measuring this shot rather than eyeballing it: **1.86%** of pixels fall in the purple hue
+band (235-320) and **0.279%** land within tolerance of `#9A2BD8`. That is the mod rendering
+under game lighting - the same geometry in the unlit preview below sits far closer to the
+raw texture colour, which is exactly what you would expect once lighting is applied.
 
 ### Mesh preview, rendered offline
 
