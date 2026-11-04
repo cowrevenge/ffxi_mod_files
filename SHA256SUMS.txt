@@ -1,6 +1,6 @@
 5009110241d3eedb7390c645571ba80cdf4b521f7d0b9b6fbac3c72f2fc18244  retail/DhalmelCow/ROM/5/15.DAT
 86f9a5b7c83614b49c3e7a71dd93e0143e157a2fd4b53c5c12ec46d6ff561ad3  retail/DhalmelShaft/ROM/5/15.DAT
-47b16adc0d59a724929b2607d3ab544f7a58ed5ac605e0fcdb2fb5ce4ee20164  nexthd/DhalmelCow/NextHD/ROM/5/15.DAT
-224b70d410b6cd8288757f6a71f015f84f7eeb8eb032eedf15b5c41bdf639bff  nexthd/DhalmelShaft/NextHD/ROM/5/15.DAT
+47b16adc0d59a724929b2607d3ab544f7a58ed5ac605e0fcdb2fb5ce4ee20164  nexthd/DhalmelCow-HD/ROM/5/15.DAT
+224b70d410b6cd8288757f6a71f015f84f7eeb8eb032eedf15b5c41bdf639bff  nexthd/DhalmelShaft-HD/ROM/5/15.DAT
 6283bb7dff849da0e0eb20f04d529c2e1f2effeaf7b52be301301913540f42ec  original/retail/ROM/5/15.DAT
 8f12d7ed69cec8d6dcb8d27f87d695e3c1b527d067ef9cc330656d49d3530546  original/nexthd/ROM/5/15.DAT
