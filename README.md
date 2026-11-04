@@ -1,10 +1,14 @@
 # Dhalmel Shaft — client-side FFXI DAT mod
 
-Every Dhalmel's neck and head is replaced with one procedural purple shaft. It rises from
-the shoulder seam along the neck's own centerline, blended across the neck bones so it
-bends like the neck, and ends past the head on the head joint so it nods with every head
-animation. Client-side only, delivered through a Pivot overlay — the game's own files are
-never modified, and only machines that install the overlay see the change.
+![The mod in game](docs/images/dhalmel-mod-ingame.png)
+
+*Every Dhalmel's neck and head replaced with one procedural purple shaft, running live in
+game through a Pivot overlay.*
+
+The shaft rises from the shoulder seam along the neck's own centerline, blended across the
+neck bones so it bends like the neck, and ends past the head on the head joint so it nods
+with every head animation. Client-side only — the game's own files are never modified, and
+only machines that install the overlay see the change.
 
 ![purple](https://img.shields.io/badge/scope-client--only-9A2BD8) ![pivot](https://img.shields.io/badge/load%20via-XIPivot-blue)
 
@@ -16,7 +20,7 @@ never modified, and only machines that install the overlay see the change.
 overlay/DhalmelShaft/ROM/5/15.DAT    the modded model        (501,024 bytes)
 original/ROM/5/15.DAT                the pristine retail file it was built from (481,984 bytes)
 tools/verify-pivot.ps1               resolves Pivot's config and checks overlay precedence
-docs/images/                         screenshots (see Screenshots below)
+docs/images/                         the in-game shot above, the mesh preview, the next project
 SHA256SUMS.txt                       integrity hash for both DATs
 README.md                            this file
 ```
@@ -30,51 +34,19 @@ Get-FileHash -Algorithm SHA256 original\ROM\5\15.DAT
 # expect 6283bb7dff849da0e0eb20f04d529c2e1f2effeaf7b52be301301913540f42ec
 ```
 
-## Screenshots
-
-### The mod, in game
-
-![Dhalmel with the shaft, in game](docs/images/dhalmel-mod-ingame.png)
-
-Real in-game screenshot of the shipped `overlay/DhalmelShaft/ROM/5/15.DAT` on a live
-Dhalmel. This is the proof that matters: the model loads through the Pivot overlay, the
-replacement geometry holds up under actual game lighting, and the shaft sits where the head
-and neck used to be.
-
-Measuring this shot rather than eyeballing it: **1.86%** of pixels fall in the purple hue
-band (235-320) and **0.279%** land within tolerance of `#9A2BD8`. That is the mod rendering
-under game lighting - the same geometry in the unlit preview below sits far closer to the
-raw texture colour, which is exactly what you would expect once lighting is applied.
-
-### Mesh preview, rendered offline
+## Mesh preview, rendered offline
 
 ![Mesh preview of the replacement geometry](docs/images/dhalmel-mesh-preview.png)
 
-The added geometry rendered in its rest pose on a flat background - **not** a game
+The added geometry rendered in its rest pose on a flat background — **not** a game
 screenshot. This is the one to judge the shape from: shaft profile, flared base, glans
 curve and the draw breakdown, with no lighting, animation or surrounding model in the way.
 
-Because it is unlit, this image shows the texture's raw colour. 2.70% of its pixels land
-within tolerance of `#9A2BD8`, the exact RGB the writer bakes into the 16x16 DXT3 chunk
-(3.89% fall in the 245-310 hue band). In game the same geometry reads differently once
-lighting is applied, so check intended colour here rather than in the screenshot.
+Because it is unlit, this image shows the texture's raw colour — 2.70% of its pixels sit
+within tolerance of `#9A2BD8`, the exact RGB the writer bakes into the 16×16 DXT3 chunk.
+In game the same geometry reads differently once lighting is applied, so use this image
+rather than a screenshot when checking intended colour.
 
-## Roadmap
-
-| # | target | state | needs |
-|---|---|---|---|
-| 1 | Dhalmel head -> purple shaft | **done, shipped** | - |
-| 2 | Galka body -> dragon shaft | planned | reuse the mesh writer as-is |
-
-Both share a single code path: measure the target bones, delete their triangles, then add
-procedural geometry weighted 100% onto those bones so it inherits their animation. The
-Galka body is the same writer pointed at a different skeleton - no new capability needed.
-
-### Next project
-
-![Next project reference](docs/images/next-project-cow-reference.png)
-
-The theming reference for what comes after the Dhalmel.
 ## Requirements
 
 - **XIPivot** installed and loading. Check with `/pivot` in game.
@@ -139,13 +111,6 @@ powershell -File tools\verify-pivot.ps1
 
 It reads `root_path` and the numbered overlays, reports which overlays contain
 `ROM\5\15.DAT`, and fails loudly if NextHD would shadow the mod.
-
-### Verify the copy
-
-```powershell
-Get-FileHash -Algorithm SHA256 "<overlay root>\DhalmelShaft\ROM\5\15.DAT"
-# expect 86f9a5b7c83614b49c3e7a71dd93e0143e157a2fd4b53c5c12ec46d6ff561ad3
-```
 
 ## Conflict: NextHD ships this same file
 
@@ -212,15 +177,32 @@ Shape is tunable via the `const`s at the top of `ffxi_modder/src/main.rs`
 ### Known caveat: rebuilds are not bit-identical
 
 Re-running the tool on this machine reproduces the model but **not** the same bytes:
-1,708 bytes differ, all inside one span (offsets 158188–186272) on a 4-byte stride —
+1,708 bytes differ, all inside one span (offsets 158188-186272) on a 4-byte stride -
 1,337 float lanes with a maximum absolute delta of **3.97e-05** on a model about 3.7 units
 tall. Compiler floating-point differences in the normalised vertex data. No visible
 difference; both variants round-trip byte-identical. **The file in this repo is the
-rendered and verified one — prefer it over a rebuild unless you changed a `const`.**
+rendered and verified one - prefer it over a rebuild unless you changed a `const`.**
+
+## Roadmap
+
+| # | target | state | needs |
+|---|---|---|---|
+| 1 | Dhalmel head -> purple shaft | **done, shipped** | - |
+| 2 | Galka body -> dragon shaft | planned | reuse the mesh writer as-is |
+
+Both share a single code path: measure the target bones, delete their triangles, then add
+procedural geometry weighted 100% onto those bones so it inherits their animation. The
+Galka body is the same writer pointed at a different skeleton — no new capability needed.
+
+## Next project
+
+![Next project reference](docs/images/next-project-cow-reference.png)
+
+The theming reference for what comes after the Dhalmel.
 
 ## Legal
 
-Both DATs here derive from Square Enix retail game data `ROM\5\15.DAT` - the modded one is
+Both DATs here derive from Square Enix retail game data `ROM\5\15.DAT` — the modded one is
 that file with the head and neck meshes swapped, the original is the untouched retail file
 included for reference and reproducibility. Published in the same spirit as the HD DAT
 overlays that circulate openly in the FFXI modding scene.
@@ -229,7 +211,7 @@ The [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) code repo is sepa
 what you want if you only care about the tooling; it contains no game data at all (its
 `.gitignore` excludes `*.DAT` on purpose).
 
-You do not need either DAT to build the mod yourself - regenerate it against a file you
+You do not need either DAT to build the mod yourself — regenerate it against a file you
 already own:
 
 ```powershell
