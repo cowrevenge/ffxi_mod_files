@@ -5,7 +5,7 @@ drops into a [XIPivot](https://github.com/HealsCodes/XIPivot) overlay root -- no
 written to the game files and nothing is served to anyone else, so a mod is visible only on
 machines that install it.
 
-![Galka Neck, in game](docs/images/galka-neck-ingame.png)
+![Dhalmel Neck, in game](docs/images/dhalmel-neck-ingame.png)
 
 The tooling that produces these files lives separately in
 [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) (GPL-3.0). This repo is the output;
@@ -17,16 +17,12 @@ that one is the source.
 
 | mod | target | status | overlay folder | file |
 |---|---|---|---|---|
-| **Galka Neck** | Galka neck | shipped | `DhalmelShaft` | `ROM/5/15.DAT` |
+| **Dhalmel Neck** | Dhalmel neck and head | shipped | `DhalmelShaft` | `ROM/5/15.DAT` |
 | **Dhalmel Cow** | Dhalmel -> cow | in progress | - | - |
 
 Everything under `overlay/` mirrors Pivot's overlay root one-to-one. Copy the contents of
 `overlay/` into your `DATs` folder and every shipped mod lands in place. A new mod is a new
 sibling folder, not a restructuring.
-
-> **Naming note.** The shipped overlay folder is still called `DhalmelShaft` from an earlier
-> pass at this mod. The mod is the Galka neck; the folder rename is outstanding. Until it
-> happens, install by path rather than by name.
 
 ## Using these files
 
@@ -46,7 +42,7 @@ sibling folder, not a restructuring.
 
 Pivot's rule is *the lowest-numbered overlay holding the file wins*. HD texture and model
 packs routinely carry their own copy of the same DAT -- NextHD ships a 776,896-byte high-poly
-model at `ROM/5/15.DAT`, for example. If your mod sorts below one of those you see no change
+Dhalmel at `ROM/5/15.DAT`, for example. If your mod sorts below one of those you see no change
 at all and reasonably conclude it is broken.
 
 `tools/verify-pivot.ps1` resolves the config the way Pivot does, prints every enabled overlay
@@ -64,19 +60,19 @@ the game files are never touched.
 
 ---
 
-## Galka Neck
+## Dhalmel Neck
 
-*Shipped.* Replaces the neck and head geometry with one procedural purple shaft. It rises from
-the shoulder seam along the neck's own centerline and is weighted entirely onto the neck and
-head joints, so it bends with the neck and follows head motion the way the geometry it replaced
-did.
+*Shipped.* Replaces every Dhalmel's head and neck with one procedural purple shaft. It rises
+from the shoulder seam along the neck's own centerline and is weighted entirely onto the neck
+and head joints, so it bends with the neck and nods with the head the way the geometry it
+replaced did.
 
 | file | bytes | SHA-256 |
 |---|---|---|
 | `overlay/DhalmelShaft/ROM/5/15.DAT` | 501,024 | `86f9a5b7c83614b49c3e7a71dd93e0143e157a2fd4b53c5c12ec46d6ff561ad3` |
 | `original/ROM/5/15.DAT` | 481,984 | `6283bb7dff849da0e0eb20f04d529c2e1f2effeaf7b52be301301913540f42ec` |
 
-`original/` is the untouched retail file the mod was built from, kept so the diff can be
+`original/` is the untouched retail Dhalmel the mod was built from, kept so the diff can be
 verified and so the mod can be rebuilt from a known-good base without your install matching
 mine. Check either file before trusting it:
 
@@ -86,7 +82,7 @@ Get-FileHash -Algorithm SHA256 overlay\DhalmelShaft\ROM\5\15.DAT
 
 ### The mesh
 
-![Galka Neck geometry, rendered offline](docs/images/galka-neck-mesh-preview.png)
+![Dhalmel Neck geometry, rendered offline](docs/images/dhalmel-neck-mesh-preview.png)
 
 The added geometry in its rest pose, before lighting and animation. Use this rather than a
 screenshot to judge shape -- shaft profile, flared base, tip curve -- and to check intended
@@ -96,9 +92,9 @@ Target bones were read from the skeleton rather than guessed from mesh section o
 
 | | |
 |---|---|
-| **head** | joint 36, the skeleton's look-at reference -- the bone retail bends to aim the face -- plus its 9 descendants |
+| **head** | joint 36, the skeleton's look-at reference -- the bone retail bends to aim the face -- plus its 9 descendants (ears etc.) |
 | **neck** | the parent chain from the head down to the first joint that branches |
-| **shoulders** | joint 29, that branching parent |
+| **shoulders** | joint 29, that branching parent, which also carries the front legs |
 
 From there, 273 head and neck triangles are removed, 10 neck-base triangles are retextured in
 place to close the seam, and 265 vertices / 494 triangles are added in 4 draws. Every added
@@ -143,15 +139,14 @@ Two things worth knowing before you do:
 
 ## Dhalmel Cow
 
-*In progress.* Rebuild the Dhalmel along the cow reference below. Not shipped -- the model id,
-DAT path, skeleton and target sections still have to be worked out the way the neck mod's were,
-then the geometry produced with `ffxi_modder`.
+*In progress.* Rebuild the Dhalmel along the cow reference below. Not shipped yet -- the model
+id, DAT path, skeleton and target sections still have to be worked out the way the neck mod's
+were, then the geometry produced with `ffxi_modder`.
 
 ![Dhalmel Cow reference](docs/images/dhalmel-cow-reference.png)
 
-Both shipped and planned mods run through one code path: resolve the model, read its skeleton,
-measure the target bones, delete their triangles, add procedural geometry bound 100% to those
-bones.
+Both mods run through one code path: resolve the model, read its skeleton, measure the target
+bones, delete their triangles, add procedural geometry bound 100% to those bones.
 
 ---
 
