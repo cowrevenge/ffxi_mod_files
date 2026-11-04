@@ -1,0 +1,7 @@
+# Pivot backups / scratch copies, never versioned
+*.bak
+*.bak-*
+*.orig
+
+# the game's own files must never end up in here
+SquareEnix/
