@@ -24,7 +24,7 @@ The game's own files are never touched. Only you see the mod.
 | no HD mods | [`retail/DhalmelShaft`](retail/DhalmelShaft) |
 | NextHD (or any HD mod) | [`nexthd/DhalmelShaft-HD`](nexthd/DhalmelShaft-HD) |
 
-## Mod #3: Centurion HD (Hume male)
+## Mod #3: Centurion set HD (Hume male)
 
 ![Centurion HD, worn BLU outfit](docs/images/centurion-hd-outfit.png)
 
@@ -36,9 +36,52 @@ The game's own files are never touched. Only you see the mod.
 
 Smoother geometry (16x the triangles, real curves, seams still closed) and 4x textures on
 one shared palette for the whole Centurion set (visor, scale mail, gauntlets, cuisses,
-greaves, sword, axe) plus Battle Gloves and Bounding Boots. **Hume male only**, and the
-folder uses this install's ROM paths, so it only lines up on a client whose VTABLE maps
-these items the same way (Phoenix does).
+greaves, sword, axe) plus Battle Gloves and Bounding Boots.
+
+## Mod #4: Centurion Set, Bastok Pride (Hume male)
+
+![Bastok Pride, BLU outfit](docs/images/bastok-pride-blu-outfit.png)
+
+![Bastok Pride, full set](docs/images/bastok-pride-fullset.png)
+
+![Bastok Pride, weapons](docs/images/bastok-pride-weapons.png)
+
+![Bastok Pride, cow emblem](docs/images/bastok-pride-cow-emblem.png)
+
+| you use | take this folder |
+|---|---|
+| Hume male | [`retail/CenturionBastokPride-HumeM`](retail/CenturionBastokPride-HumeM) |
+
+The whole set painted new in bright cel colour: Bastok indigo cloth, stacked steel
+plating that really overlaps, stitched leather, brushed and scratched metal, and a brass
+cow emblem on the chest. Visor, scale mail, gauntlets, cuisses, greaves, sword and axe.
+
+## Mod #5: Bounding Boots HD (Hume male)
+
+![Bounding Boots HD, original top, new bottom](docs/images/bounding-boots-hd.png)
+
+| you use | take this folder |
+|---|---|
+| Hume male | [`retail/BoundingBootsHD-HumeM`](retail/BoundingBootsHD-HumeM) |
+
+Painted new to match Bastok Pride: saddle leather, tan toe cap, heel and knee tab, steel
+ladder buckle, dark leather wrap. No blue.
+
+## Mod #6: Battle Gloves HD (Hume male)
+
+![Battle Gloves HD, original top, new bottom](docs/images/battle-gloves-hd.png)
+
+| you use | take this folder |
+|---|---|
+| Hume male | [`retail/BattleGlovesHD-HumeM`](retail/BattleGlovesHD-HumeM) |
+
+Painted new to match Bastok Pride: brown wrapped canvas hands with stitched finger seams,
+olive quilted cuff with light piping. Cloth, no blue.
+
+**Mods 3 to 6 are Hume male only** and use this install's ROM paths, so they only line up
+on a client whose VTABLE maps these items the same way (Phoenix does).
+Mods 4, 5 and 6 don't share any files, so run them together. Mod 3 shares files with all
+three: whichever is higher in `/pivot` wins.
 
 ---
 
