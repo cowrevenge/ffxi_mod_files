@@ -4,7 +4,7 @@ Every Dhalmel's neck and head is replaced with one procedural purple shaft. It r
 the shoulder seam along the neck's own centerline, blended across the neck bones so it
 bends like the neck, and ends past the head on the head joint so it nods with every head
 animation. Client-side only, delivered through a Pivot overlay — the game's own files are
-never modified, and only this machine sees it.
+never modified, and only machines that install the overlay see the change.
 
 ![purple](https://img.shields.io/badge/scope-client--only-9A2BD8) ![pivot](https://img.shields.io/badge/load%20via-XIPivot-blue)
 
@@ -13,10 +13,20 @@ never modified, and only this machine sees it.
 ## Contents
 
 ```
-overlay/DhalmelShaft/ROM/5/15.DAT    the modded model (501,024 bytes)
-tools/verify-pivot.ps1               resolves Pivot's config and checks precedence
-SHA256SUMS.txt                       integrity hash
+overlay/DhalmelShaft/ROM/5/15.DAT    the modded model        (501,024 bytes)
+original/ROM/5/15.DAT                the pristine retail file it was built from (481,984 bytes)
+tools/verify-pivot.ps1               resolves Pivot's config and checks overlay precedence
+SHA256SUMS.txt                       integrity hash for both DATs
 README.md                            this file
+```
+
+`original/ROM/5/15.DAT` is the untouched retail Dhalmel, included so you can confirm what
+changed and rebuild the mod from a known-good base without depending on your own install
+matching. Check it before trusting anything:
+
+```powershell
+Get-FileHash -Algorithm SHA256 original\ROM\5\15.DAT
+# expect 6283bb7dff849da0e0eb20f04d529c2e1f2effeaf7b52be301301913540f42ec
 ```
 
 ## Requirements
@@ -164,21 +174,21 @@ rendered and verified one — prefer it over a rebuild unless you changed a `con
 
 ## Legal
 
-`overlay/DhalmelShaft/ROM/5/15.DAT` is **derived from Square Enix retail game data**.
-That is why this repository is **private**: keeping it on your own machine and using it
-yourself is one thing, but the DAT is redistributable game content, so it must not be
-flipped public or mirrored.
+Both DATs here derive from Square Enix retail game data `ROM\5\15.DAT` - the modded one is
+that file with the head and neck meshes swapped, the original is the untouched retail file
+included for reference and reproducibility. Published in the same spirit as the HD DAT
+overlays that circulate openly in the FFXI modding scene.
 
-The [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) code repo **is** public —
-that is the shareable part, and it contains no game data (its `.gitignore` excludes
-`*.DAT` on purpose).
+The [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) code repo is separate and is
+what you want if you only care about the tooling; it contains no game data at all (its
+`.gitignore` excludes `*.DAT` on purpose).
 
-If you need to share a built mod, share the command that regenerates it against files the
-recipient already owns:
+You do not need either DAT to build the mod yourself - regenerate it against a file you
+already own:
 
 ```powershell
 cargo run --release -- "<your FFXI>\ROM\5\15.DAT" out.DAT
 ```
 
-Keeping this repo private is a deliberate choice, not an oversight. To flip it:
-`gh repo edit cowrevenge/ffxi_mod_files --visibility public`.
+Resolve your own ROM path first; `ROM\5\15.DAT` is this install's mapping, not a universal
+one (see the table above).
