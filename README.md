@@ -24,6 +24,22 @@ The game's own files are never touched. Only you see the mod.
 | no HD mods | [`retail/DhalmelShaft`](retail/DhalmelShaft) |
 | NextHD (or any HD mod) | [`nexthd/DhalmelShaft-HD`](nexthd/DhalmelShaft-HD) |
 
+## Mod #3: Centurion HD (Hume male)
+
+![Centurion HD, worn BLU outfit](docs/images/centurion-hd-outfit.png)
+
+![Centurion HD, full set](docs/images/centurion-hd-fullset.png)
+
+| you use | take this folder |
+|---|---|
+| Hume male | [`retail/CenturionHD-HumeM`](retail/CenturionHD-HumeM) |
+
+Smoother geometry (16x the triangles, real curves, seams still closed) and 4x textures on
+one shared palette for the whole Centurion set (visor, scale mail, gauntlets, cuisses,
+greaves, sword, axe) plus Battle Gloves and Bounding Boots. **Hume male only**, and the
+folder uses this install's ROM paths, so it only lines up on a client whose VTABLE maps
+these items the same way (Phoenix does).
+
 ---
 
 ## Install
@@ -87,7 +103,7 @@ install can map it elsewhere: see `ffxi_modder`'s README to resolve it.
 
 ## Files
 
-All six DATs and their hashes are in [`SHA256SUMS.txt`](SHA256SUMS.txt).
+Every DAT and its hash is in [`SHA256SUMS.txt`](SHA256SUMS.txt).
 
 | | |
 |---|---|
