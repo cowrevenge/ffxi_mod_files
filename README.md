@@ -16,8 +16,8 @@ reader/writer.
 
 | mod | target | status | overlay folder | file |
 |---|---|---|---|---|
-| **Dhalmel Shaft** | Dhalmel head and neck | shipped | `DhalmelShaft` | `ROM/5/15.DAT` |
-| **Galka Body** | Galka torso | planned | - | - |
+| **Galka Neck** | Galka neck | shipped | `DhalmelShaft` | `ROM/5/15.DAT` |
+| **Dhalmel Cow** | Dhalmel -> cow | in progress | - | - |
 
 Everything under `overlay/` mirrors Pivot's overlay root one-to-one: copy the contents of
 `overlay/` into your `DATs` folder and every shipped mod lands in the right place. Adding a
@@ -134,19 +134,13 @@ Two honesty notes:
 - **`ROM\5\15.DAT` is not a universal path.** It is this install's mapping. See
   [Finding a model's DAT file](#finding-a-models-dat-file).
 
-## Galka Body
+## Dhalmel Cow
 
-*Planned.* Same treatment on the Galka torso. This is the same writer pointed at a different
-skeleton -- measure the target bones, delete their triangles, add procedural geometry bound
-100% to those bones -- so it needs no new capability, only the work.
+*In progress.* Rebuild the Dhalmel along the cow reference below. Not shipped yet -- the
+model, skeleton and target sections still have to be worked out the same way the neck mod
+was, then the geometry produced with `ffxi_modder`.
 
----
-
-## Next project
-
-![Next project reference](docs/images/next-project-cow.png)
-
-The theming reference for what comes after the Dhalmel and Galka.
+![Dhalmel Cow reference](docs/images/dhalmel-cow-reference.png)
 
 ## Finding a model's DAT file
 
