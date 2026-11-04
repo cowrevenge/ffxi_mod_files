@@ -8,7 +8,7 @@ This repo is the **mod list**. The tooling that produces these files is separate
 [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder), a GPL-3.0 lossless DAT
 reader/writer.
 
-![Dhalmel Shaft, in game](docs/images/dhalmel-mod-ingame.png)
+![Dhalmel Shaft, in game](docs/images/dhalmel-shaft-ingame.png)
 
 ---
 
@@ -62,7 +62,7 @@ head bones, so it bends with the neck and nods with the head like the geometry i
 
 **Install:** copy `overlay/DhalmelShaft` to `<overlay root>\DhalmelShaft`, then restart.
 
-![The replacement geometry, rendered offline](docs/images/dhalmel-mesh-preview.png)
+![The replacement geometry, rendered offline](docs/images/dhalmel-shaft-mesh-preview.png)
 
 The added mesh in its rest pose, before lighting and animation. Use this rather than a
 screenshot to judge shape -- shaft profile, flared base, tip curve -- and to check intended
@@ -144,7 +144,7 @@ skeleton -- measure the target bones, delete their triangles, add procedural geo
 
 ## Next project
 
-![Next project reference](docs/images/next-project-cow-reference.png)
+![Next project reference](docs/images/next-project-cow.png)
 
 The theming reference for what comes after the Dhalmel and Galka.
 
