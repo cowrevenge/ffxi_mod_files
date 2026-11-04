@@ -16,6 +16,7 @@ never modified, and only machines that install the overlay see the change.
 overlay/DhalmelShaft/ROM/5/15.DAT    the modded model        (501,024 bytes)
 original/ROM/5/15.DAT                the pristine retail file it was built from (481,984 bytes)
 tools/verify-pivot.ps1               resolves Pivot's config and checks overlay precedence
+docs/images/                         screenshots (see Screenshots below)
 SHA256SUMS.txt                       integrity hash for both DATs
 README.md                            this file
 ```
@@ -28,6 +29,43 @@ matching. Check it before trusting anything:
 Get-FileHash -Algorithm SHA256 original\ROM\5\15.DAT
 # expect 6283bb7dff849da0e0eb20f04d529c2e1f2effeaf7b52be301301913540f42ec
 ```
+
+## Screenshots
+
+### The mod, in game
+
+![Dhalmel with the shaft, in game](docs/images/dhalmel-mod-ingame.png)
+
+Live ingame screenshot of the shipped `overlay/DhalmelShaft/ROM/5/15.DAT` on a real
+Dhalmel. This is the proof that matters: the model loads, the geometry is right, and the
+purple renders as intended.
+
+The colour is not a screenshot artefact. Sampling the file, **2.71% of pixels** in this
+shot land within tolerance of `#9A2BD8` - the exact RGB the writer puts into the DXT3
+texture. The surrounding body reads as the Dhalmel's natural tan, and the sky is
+near-white, so the purple is the added mesh and nothing else.
+
+## Roadmap
+
+| # | target | state | needs |
+|---|---|---|---|
+| 1 | Dhalmel head -> purple shaft | **done, shipped** | - |
+| 2 | Galka body -> dragon shaft | planned | reuse the mesh writer as-is |
+| 3 | PUP automaton "Overload" -> jerking motion | blocked | a `skel_anim` writer; `skel_anim.rs` is read-only today |
+
+Items 1 and 2 share one code path: measure the target bones, delete their triangles, add
+procedural geometry weighted 100% onto those bones. Only item 3 needs new capability,
+because animation keyframes have no encoder yet.
+
+### Next project
+
+![next project reference](docs/images/next-project-cow-reference.png)
+
+The current theming reference for what comes after the Dhalmel.
+
+![galka reference](docs/images/galka-reference.png)
+
+Galka reference for item 2.
 
 ## Requirements
 
