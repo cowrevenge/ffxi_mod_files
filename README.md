@@ -1,221 +1,110 @@
 # Modded Dhalmels for FFXI
 
-Here are some modded Dhalmels for FFXI! Drop-in DAT files for
-[XIPivot](https://github.com/HealsCodes/XIPivot). Nothing in your game folder gets touched,
-and only people who install them see anything.
+Pick a mod. Take its folder. Put it in Pivot. Turn it on. Done.
 
-Made with [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder), which reads and writes
-these DATs losslessly -- an unedited parse and write comes back byte-for-byte identical, so
-whatever a mod does not touch cannot drift.
+The game's own files are never touched. Only you see the mod.
 
 ---
 
-## Pick your file
+## Mod #1: Cow
 
-A mod is **always its own folder at the top of your Pivot list**. You never edit anybody
-else's overlay folder, and you never overwrite another pack's files.
+![Dhalmel Cow](docs/images/dhalmel-cow-preview.png)
 
-The only decision is *which* DAT goes in that folder:
+| you use | take this folder |
+|---|---|
+| no HD mods | [`retail/DhalmelCow`](retail/DhalmelCow) |
+| NextHD (or any HD mod) | [`nexthd/DhalmelCow-HD`](nexthd/DhalmelCow-HD) |
 
-| Your setup | Use | Folder you end up with |
-|---|---|---|
-| You run **NextHD** or another HD pack | **Next HD Dat** | `DhalmelCow-HD` / `DhalmelShaft-HD` |
-| You run **no** HD packs | **Retail Dat** | `DhalmelCow` / `DhalmelShaft` |
+## Mod #2: Neck
 
-The HD versions are built from NextHD's own Dhalmel, so when one wins it keeps NextHD's
-double-resolution textures. Pick the wrong one and you will lose the HD detail -- that is the
-only difference.
+![Dhalmel Neck](docs/images/dhalmel-neck-ingame.png)
 
-## The one rule, explained simply
+| you use | take this folder |
+|---|---|
+| no HD mods | [`retail/DhalmelShaft`](retail/DhalmelShaft) |
+| NextHD (or any HD mod) | [`nexthd/DhalmelShaft-HD`](nexthd/DhalmelShaft-HD) |
 
-Pivot reads your overlay list **top to bottom and stops at the first copy of a file it
-finds**. Only one copy of `ROM\5\15.DAT` is ever used: the highest one in the list.
-
-So if something else already has a `ROM\5\15.DAT` -- and NextHD does -- then whatever is
-**higher** is what you see. Put your mod at the top and you win. Nothing to configure,
-nothing to overwrite.
+---
 
 ## Install
 
-1. Copy the mod's folder from this repo into your **Pivot overlay folder** -- the one that
-   already holds `NextHD`, `XiView-Standard` and friends. Pivot calls it `root_path` in its
-   config. Take the whole folder, so you end up with:
+1. Copy the folder into your Pivot `DATs` folder. It sits next to `NextHD`, `XiView` and
+   the rest. You end up with, for example:
 
    ```
    <your DATs folder>\DhalmelCow-HD\ROM\5\15.DAT
    ```
 
-2. Type `/pivot` in game.
-3. Click **+** next to the mod to enable it.
-4. **Drag it to the very top of the list.** This is the step that matters.
-5. Close the window and **restart the client**. Pivot only picks files up at load, so a
-   reload is not enough.
+2. In game type `/pivot`, click **+** on the mod, and **drag it to the top of the list**.
 
-Your other packs are untouched. Turning the mod off is just unchecking it or deleting its
-folder -- there is nothing to restore anywhere else.
+3. Restart the game.
 
-### Switching between the two mods
+That's it.
 
-Leave both installed and **move the one you want higher**. Whichever is on top wins. No
-reinstalling, no file copying.
+**Why the top?** Pivot uses the first folder in the list that has the file. If NextHD is
+above your mod, you see NextHD's Dhalmel. Mod on top, you see the mod.
 
-### Not sure what is actually loading?
+**Want the other mod instead?** Put both in. Whichever is higher wins. Drag to swap.
 
-This lists every overlay carrying the file, in the order Pivot reads them, and names the
-winner:
+**Turn it off:** uncheck it in `/pivot`, or delete the folder. Nothing else to undo.
+
+---
+
+## Which file do I take?
+
+The HD mods give you NextHD's sharper textures. The retail mods give you the plain game
+textures. Same cow, same neck, same animations. Only the texture resolution differs.
+
+Take the HD one if you run any HD DAT pack. Take the retail one if you don't.
+Wrong pick costs you nothing but sharpness.
+
+---
+
+## Build your own
+
+[`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) makes these from any Dhalmel DAT.
+The output always goes in its own folder, never into NextHD's.
 
 ```powershell
-tools\verify-pivot.ps1 -DatPath ROM\5\15.DAT
+git clone https://github.com/cowrevenge/ffxi_modder
+cd ffxi_modder
+cargo run --release -- "<your>\ROM\5\15.DAT" --check                          # must say byte-identical
+cargo run --release -- "<your>\ROM\5\15.DAT" out.DAT                          # neck
+cargo run --release --bin dhalmel_cow -- "<your>\ROM\5\15.DAT" out.DAT        # cow
 ```
+
+Feed it your retail `ROM\5\15.DAT` for a retail build, or NextHD's copy for an HD build.
+Run `--check` first: if the writer can't reproduce your file byte for byte, don't trust a
+mod built from it.
+
+A rebuild won't be bit-identical to the files here (compiler float noise, invisible in game).
+The files in this repo are the ones that were rendered and checked. Prefer them.
+
+`ROM\5\15.DAT` is where the Dhalmel lives on this install (model 332, DAT id 1632). Your
+install can map it elsewhere: see `ffxi_modder`'s README to resolve it.
 
 ---
 
-## Mod #1 -- Cow
+## Files
 
-The Dhalmel, rebuilt as a cow -- Holstein markings and all.
+All six DATs and their hashes are in [`SHA256SUMS.txt`](SHA256SUMS.txt).
 
-![Dhalmel Cow](docs/images/dhalmel-cow-preview.png)
-
-![Dhalmel Cow reference](docs/images/dhalmel-cow-reference.png)
-
-| variant | for | download | becomes this folder | size |
-|---|---|---|---|---|
-| **Retail Dat** | no HD packs | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelCow/ROM/5/15.DAT) | `DhalmelCow` | 522,944 B |
-| **Next HD Dat** | NextHD users | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelCow-HD/ROM/5/15.DAT) | `DhalmelCow-HD` | 817,856 B |
-
-```
-retail   SHA-256 5009110241d3eedb7390c645571ba80cdf4b521f7d0b9b6fbac3c72f2fc18244
-nexthd   SHA-256 47b16adc0d59a724929b2607d3ab544f7a58ed5ac605e0fcdb2fb5ce4ee20164
-```
-
----
-
-## Mod #2 -- Neck mod
-
-Head and neck replaced with one procedural purple shaft, weighted onto the neck and head bones
-so it bends with the neck and nods with the head.
-
-![Dhalmel Neck in game](docs/images/dhalmel-neck-ingame.png)
-
-![Dhalmel Neck geometry, unlit](docs/images/dhalmel-neck-mesh-preview.png)
-
-The second image is an offline render with no lighting -- the one to judge shape and the raw
-`#9A2BD8` colour from.
-
-| variant | for | download | becomes this folder | size |
-|---|---|---|---|---|
-| **Retail Dat** | no HD packs | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelShaft/ROM/5/15.DAT) | `DhalmelShaft` | 501,024 B |
-| **Next HD Dat** | NextHD users | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelShaft-HD/ROM/5/15.DAT) | `DhalmelShaft-HD` | 795,936 B |
-
-```
-retail   SHA-256 86f9a5b7c83614b49c3e7a71dd93e0143e157a2fd4b53c5c12ec46d6ff561ad3
-nexthd   SHA-256 224b70d410b6cd8288757f6a71f015f84f7eeb8eb032eedf15b5c41bdf639bff
-```
-
----
-
-## Why the HD versions are separate builds
-
-NextHD's Dhalmel has the **same mesh, skeleton and animations as retail** -- only the textures
-are double resolution. So the mod geometry is identical; what differs is the file it is applied
-to, and the writer has to be provably lossless on that file before you can trust a mod built
-from it. Every HD version here was preceded by a byte-identical round trip of NextHD's own
-Dhalmel, and every retail version by one of the retail file.
-
-All six DATs are listed with their hashes in
-[`SHA256SUMS.txt`](SHA256SUMS.txt). Check anything before trusting it:
+| | |
+|---|---|
+| retail mods | [`retail/`](retail) |
+| HD mods | [`nexthd/`](nexthd) |
+| untouched originals, both bases | [`original/`](original) |
+| what's winning in your Pivot | `tools\verify-pivot.ps1 -DatPath ROM\5\15.DAT` |
 
 ```powershell
 Get-FileHash -Algorithm SHA256 .\retail\DhalmelCow\ROM\5\15.DAT
 ```
 
-## Download everything
-
-| | |
-|---|---|
-| **All retail versions** | [`retail/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/retail) |
-| **All Next HD versions** | [`nexthd/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/nexthd) |
-| **Originals, both bases** | [`original/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/original) |
-
-The originals are there so you can diff what a mod actually changed and rebuild from a
-known-good base. Nobody needs to replace them -- no install here writes to them.
-
----
-
-## Next project
-
-TBD.
-
----
-
-## How to mod your own file
-
-You do not need anything from this repo. Build a mod from a DAT you already own:
-
-```powershell
-git clone https://github.com/cowrevenge/ffxi_modder
-cd ffxi_modder
-cargo run --release -- "C:\path\to\15.DAT" out.DAT                    # neck mod
-cargo run --release --bin dhalmel_cow -- "C:\path\to\15.DAT" out.DAT  # cow mod
-```
-
-Feed it the file that matches how you play: your retail `ROM\5\15.DAT` for a retail build, or
-NextHD's copy for an HD build. Either way the output goes into its own overlay folder -- never
-back into NextHD's folder.
-
-**Always check the writer against your file first.** If it cannot reproduce your input
-byte-for-byte, do not trust any mod it produces:
-
-```powershell
-cargo run --release -- "C:\path\to\15.DAT" --check
-# round trip: byte-identical (776896 bytes)
-```
-
-That step is the whole point of the tool. It is the only proof that nothing outside the bits
-you changed has drifted -- including the 4 padding bytes retail leaves dirty after the vertex
-data, which a naive writer would quietly zero.
-
-### Which file is your model?
-
-Three steps, all from data:
-
-1. **Model id** -- LandSandBoat `data/zones/*/mobs.yaml`, from entries sharing a species and
-   skill list. The Dhalmel is **332**.
-2. **DAT file id** -- `npc_dat_id()`: `model < 1500` gives `model + 1300`; `< 3000` gives
-   `+ 50295`; `< 3500` gives `+ 96907`; otherwise `+ 98239`. So 332 -> **1632**.
-3. **ROM path** -- the highest ROM whose VTABLE byte equals its own index owns the file, then
-   `dir = entry >> 7` and `file = entry & 0x7F`. That gives `ROM\5\15.DAT` on this install.
-
-Step 3 is **install-specific**. Same model id, different client, possibly a different folder,
-so resolve it against your own DATs instead of copying `ROM\5\15.DAT` from here.
-
-### Point the mod at the bones you want
-
-The neck mod finds its target from the skeleton rather than guessing which mesh section is the
-head: head = joint 36 (the look-at reference, the bone retail bends to aim the face) plus its
-9 descendants; neck = the parent chain down to the first branching joint; shoulders = joint
-29, that branch. It removes their triangles and adds procedural geometry weighted 100% onto
-those same bones, which is why it animates correctly for free.
-
-Shape lives in the `const`s at the top of `src/main.rs` -- `PURPLE`, `SHAFT_RADIUS_SCALE`,
-`TIP_PER_HEAD_LENGTH`, `SEAM_OVERLAP`, `GLANS`, and the rest.
-
-### Two things to expect
-
-- **A rebuild will not be bit-identical to a file in this repo.** Same model, a few thousand
-  bytes different from floating-point noise in the compiler. Invisible in game. Want the
-  exact file that was checked in, download it; changed a `const`, rebuild.
-- **Colour comes from a texture, not a tint.** The purple is a small solid DXT3 chunk appended
-  to the DAT, not a `t_factor` value.
-
 ---
 
 ## Legal
 
-Everything here derives from Square Enix retail game data. Modded files are the retail model
-with mesh sections swapped; the originals are those files unaltered, kept so you can diff what
-changed and rebuild from a known-good base. Shared in the same spirit as the HD DAT overlays
-that already circulate freely in the FFXI community.
-
-Tooling only? Use [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) -- separate repo,
-GPL-3.0, contains no game data.
+Everything here derives from Square Enix retail game data: the mods are that model with
+sections swapped, the originals are unaltered. Shared in the same spirit as the HD DAT
+overlays that already circulate in the FFXI community. The tooling is GPL-3.0 and lives in
+[`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder), which contains no game data.
