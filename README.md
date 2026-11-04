@@ -33,8 +33,10 @@ tools\verify-pivot.ps1 -DatPath ROM\5\15.DAT
 
 ### Skip the ordering fight entirely with the Next HD versions
 
-The **Next HD Dat** of each mod is built from NextHD's own high-poly Dhalmel and drops
-straight into your `NextHD` folder, replacing its `ROM\5\15.DAT`. Once you do that, NextHD
+The **Next HD Dat** of each mod is built from NextHD's own Dhalmel (same mesh, skeleton and
+animations as retail, double-resolution textures) and drops straight into your `NextHD`
+folder, replacing its `ROM\5\15.DAT`. Each mod's HD file lives at
+`nexthd/<mod>/NextHD/ROM/5/15.DAT`, so you can copy that `NextHD` folder over yours. Once you do that, NextHD
 can sit anywhere in the list -- there is nothing left to outrank, because NextHD is now
 serving the modded file itself.
 
@@ -57,13 +59,20 @@ The Dhalmel, rebuilt as a cow.
 | variant | | |
 |---|---|---|
 | **Retail Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelCow/ROM/5/15.DAT) | 522,944 B |
-| **Next HD Dat** | not built yet | - |
+| **Next HD Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelCow/NextHD/ROM/5/15.DAT) | 817,856 B |
 
-`SHA-256 5009110241d3eedb7390c645571ba80cdf4b521f7d0b9b6fbac3c72f2fc18244`
+```
+retail   SHA-256 5009110241d3eedb7390c645571ba80cdf4b521f7d0b9b6fbac3c72f2fc18244
+nexthd   SHA-256 47b16adc0d59a724929b2607d3ab544f7a58ed5ac605e0fcdb2fb5ce4ee20164
+```
+
+The Next HD build is the same cow made from NextHD's own Dhalmel, so it keeps NextHD's
+double-resolution textures (512x512 and 256x512) under the Holstein paint. Same check as
+the retail one: the NextHD Dhalmel round-trips byte-identical through the writer first.
 
 ---
 
-## Mod #3 -- Neck mod
+## Mod #2 -- Neck mod
 
 The head and neck replaced with one procedural purple shaft, weighted onto the neck and head
 bones so it bends with the neck and nods with the head.
@@ -80,7 +89,7 @@ The second image is an offline render with no lighting -- the one to judge shape
 | variant | | |
 |---|---|---|
 | **Retail Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelShaft/ROM/5/15.DAT) | 501,024 B |
-| **Next HD Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/NextHD/ROM/5/15.DAT) | 795,936 B |
+| **Next HD Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelShaft/NextHD/ROM/5/15.DAT) | 795,936 B |
 
 ```
 retail   SHA-256 86f9a5b7c83614b49c3e7a71dd93e0143e157a2fd4b53c5c12ec46d6ff561ad3
@@ -122,7 +131,8 @@ You do not need anything from this repo. Build a mod from a DAT you already own:
 ```powershell
 git clone https://github.com/cowrevenge/ffxi_modder
 cd ffxi_modder
-cargo run --release -- "C:\path\to\15.DAT" out.DAT
+cargo run --release -- "C:\path\to\15.DAT" out.DAT                    # neck mod
+cargo run --release --bin dhalmel_cow -- "C:\path\to\15.DAT" out.DAT  # cow mod
 ```
 
 **Always check the writer against your file first.** If it cannot reproduce your input
