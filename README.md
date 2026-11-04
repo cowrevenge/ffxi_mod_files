@@ -36,14 +36,23 @@ Get-FileHash -Algorithm SHA256 original\ROM\5\15.DAT
 
 ![Dhalmel with the shaft, in game](docs/images/dhalmel-mod-ingame.png)
 
-Live ingame screenshot of the shipped `overlay/DhalmelShaft/ROM/5/15.DAT` on a real
-Dhalmel. This is the proof that matters: the model loads, the geometry is right, and the
-purple renders as intended.
+Real in-game screenshot of the shipped `overlay/DhalmelShaft/ROM/5/15.DAT` on a live
+Dhalmel. This is the proof that matters: the model loads through the Pivot overlay, the
+replacement geometry holds up under actual game lighting, and the shaft moves with the
+head.
 
-The colour is not a screenshot artefact. Sampling the file, **2.71% of pixels** in this
-shot land within tolerance of `#9A2BD8` - the exact RGB the writer puts into the DXT3
-texture. The surrounding body reads as the Dhalmel's natural tan, and the sky is
-near-white, so the purple is the added mesh and nothing else.
+### Mesh preview, rendered offline
+
+![Mesh preview of the replacement geometry](docs/images/dhalmel-mesh-preview.png)
+
+The added geometry rendered in its rest pose on a flat background - **not** a game
+screenshot. This is the one to judge the shape from: shaft profile, flared base, glans
+curve and the draw breakdown, with no lighting, animation or surrounding model in the way.
+
+Because it is unlit, this image shows the texture's raw colour. 2.70% of its pixels land
+within tolerance of `#9A2BD8`, the exact RGB the writer bakes into the 16x16 DXT3 chunk
+(3.89% fall in the 245-310 hue band). In game the same geometry reads differently once
+lighting is applied, so check intended colour here rather than in the screenshot.
 
 ## Roadmap
 
@@ -51,22 +60,16 @@ near-white, so the purple is the added mesh and nothing else.
 |---|---|---|---|
 | 1 | Dhalmel head -> purple shaft | **done, shipped** | - |
 | 2 | Galka body -> dragon shaft | planned | reuse the mesh writer as-is |
-| 3 | PUP automaton "Overload" -> jerking motion | blocked | a `skel_anim` writer; `skel_anim.rs` is read-only today |
 
-Items 1 and 2 share one code path: measure the target bones, delete their triangles, add
-procedural geometry weighted 100% onto those bones. Only item 3 needs new capability,
-because animation keyframes have no encoder yet.
+Both share a single code path: measure the target bones, delete their triangles, then add
+procedural geometry weighted 100% onto those bones so it inherits their animation. The
+Galka body is the same writer pointed at a different skeleton - no new capability needed.
 
 ### Next project
 
-![next project reference](docs/images/next-project-cow-reference.png)
+![Next project reference](docs/images/next-project-cow-reference.png)
 
-The current theming reference for what comes after the Dhalmel.
-
-![galka reference](docs/images/galka-reference.png)
-
-Galka reference for item 2.
-
+The theming reference for what comes after the Dhalmel.
 ## Requirements
 
 - **XIPivot** installed and loading. Check with `/pivot` in game.
