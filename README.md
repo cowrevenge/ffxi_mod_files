@@ -34,13 +34,13 @@ The game's own files are never touched. Only you see the mod.
 |---|---|
 | Hume male | [`retail/CenturionHD-HumeM`](retail/CenturionHD-HumeM) |
 
-Smoother geometry (16x the triangles, real curves, seams still closed) and 4x textures on
-one shared palette for the whole Centurion set (visor, scale mail, gauntlets, cuisses,
-greaves, sword, axe) plus Battle Gloves and Bounding Boots.
+The original look, sharper. Smoother geometry (16x the triangles, real curves, seams
+still closed) and 4x textures on one shared palette for the whole Centurion set (visor,
+scale mail, gauntlets, cuisses, greaves, sword, axe) plus Battle Gloves and Bounding Boots.
 
 ## Mod #4: Centurion Set, Bastok Pride (Hume male)
 
-![Bastok Pride, BLU outfit](docs/images/bastok-pride-blu-outfit.png)
+![Centurion HD vs Bastok Pride](docs/images/centurion-hd-vs-bastok-pride.png)
 
 ![Bastok Pride, full set](docs/images/bastok-pride-fullset.png)
 
@@ -52,9 +52,10 @@ greaves, sword, axe) plus Battle Gloves and Bounding Boots.
 |---|---|
 | Hume male | [`retail/CenturionBastokPride-HumeM`](retail/CenturionBastokPride-HumeM) |
 
-The whole set painted new in bright cel colour: Bastok indigo cloth, stacked steel
-plating that really overlaps, stitched leather, brushed and scratched metal, and a brass
-cow emblem on the chest. Visor, scale mail, gauntlets, cuisses, greaves, sword and axe.
+The whole Centurion set painted new in bright Bastok colours: indigo cloth from neck to
+shoes, stacked steel plating that really overlaps, brushed and scratched metal, stitched
+leather in the HD set's cooler browns, indigo gauntlet gloves, and a brass cow emblem on
+the chest. Visor, scale mail, gauntlets, cuisses, greaves, sword and axe.
 
 ## Mod #5: Bounding Boots HD (Hume male)
 
@@ -64,8 +65,8 @@ cow emblem on the chest. Visor, scale mail, gauntlets, cuisses, greaves, sword a
 |---|---|
 | Hume male | [`retail/BoundingBootsHD-HumeM`](retail/BoundingBootsHD-HumeM) |
 
-Painted new to match Bastok Pride: saddle leather, tan toe cap, heel and knee tab, steel
-ladder buckle, dark leather wrap. No blue.
+Painted new: saddle leather shaft, tan toe cap, heel and knee tab, steel ladder buckle,
+dark leather wrap, stitching and rivets. Leather only, no blue.
 
 ## Mod #6: Battle Gloves HD (Hume male)
 
@@ -75,13 +76,20 @@ ladder buckle, dark leather wrap. No blue.
 |---|---|
 | Hume male | [`retail/BattleGlovesHD-HumeM`](retail/BattleGlovesHD-HumeM) |
 
-Painted new to match Bastok Pride: brown wrapped canvas hands with stitched finger seams,
-olive quilted cuff with light piping. Cloth, no blue.
+Painted new: brown wrapped canvas hands with stitched finger seams, olive quilted cuff
+bound with light piping. Cloth only, no blue.
+
+### Wearing them together
+
+Bastok Pride with the Bounding Boots and Battle Gloves is the BLU outfit:
+
+![Bastok Pride with Bounding Boots HD and Battle Gloves HD](docs/images/bastok-pride-blu-outfit.png)
+
+Mods 4, 5 and 6 don't share any files: turn on all three. Mod 3 shares files with all of
+them: whichever is higher in `/pivot` wins.
 
 **Mods 3 to 6 are Hume male only** and use this install's ROM paths, so they only line up
 on a client whose VTABLE maps these items the same way (Phoenix does).
-Mods 4, 5 and 6 don't share any files, so run them together. Mod 3 shares files with all
-three: whichever is higher in `/pivot` wins.
 
 ---
 
