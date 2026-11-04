@@ -10,72 +10,110 @@ whatever a mod does not touch cannot drift.
 
 ---
 
-## How to install
+## Which version do I download?
 
-1. Copy the mod's folder into your **Pivot overlay folder** -- the one that already holds
-   `NextHD`, `XiView-Standard` and friends. Pivot calls it `root_path` in its config.
+| Your setup | Use | Put it here |
+|---|---|---|
+| You run **NextHD** or another HD pack | **Next HD Dat** | inside that pack's own folder |
+| You run **no** HD packs | **Retail Dat** | its own folder, at the top of the list |
+
+Every mod here ships both. They are the same mod, just built on a different base file -- the
+HD one keeps the doubled-resolution textures, the retail one does not.
+
+## The one rule that matters, explained simply
+
+Pivot reads your overlay list **top to bottom and stops at the first copy of a file it
+finds**. Only one copy of `ROM\5\15.DAT` is ever used: the highest one in the list.
+
+So if something else already has a `ROM\5\15.DAT` -- like NextHD does -- and that thing is
+above your mod, you will see NextHD's Dhalmel and think your mod is broken. It is not broken,
+it is just sitting below somebody else's copy.
+
+There are two ways to make sure yours is the copy that gets used:
+
+1. **Put your file where the other file already is.** Drop the modded DAT into NextHD's own
+   folder, replacing its `ROM\5\15.DAT`. Now there is only one copy and nothing to argue
+   about. **If you use HD packs, this is the proper install -- do this one.**
+2. **Give it its own folder and drag that folder to the very top.** Use this when you have no
+   HD pack carrying the same file, or when you want the mod kept separate from your packs.
+
+Either way works. Option 1 is the right answer for HD users, not a shortcut.
+
+---
+
+## Install
+
+### If you use NextHD or another HD pack -- the proper way
+
+1. **Back up the file you are about to replace.** Do this first.
+2. Take the mod's HD file from `nexthd/<Mod>/NextHD/ROM/5/15.DAT` and copy it over
+   `<your DATs folder>\NextHD\ROM\5\15.DAT`.
+3. Restart the client.
+
+That is all it takes -- no reordering, and NextHD can sit anywhere in the list.
+
+The pristine, unmodded version of that file is in
+[`original/nexthd/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/original/nexthd),
+so you can always put things back exactly as they were.
+
+To swap to the other mod later, copy that mod's HD file into the same spot. Only one mod can
+live in that folder at a time -- it is the same file being replaced.
+
+### If you use no HD packs
+
+1. Copy the mod's folder -- `retail/DhalmelCow` or `retail/DhalmelShaft` -- into your
+   **Pivot overlay folder**, the one holding `NextHD`, `XiView-Standard` and friends. Pivot
+   calls it `root_path` in its config.
 2. Type `/pivot` in game.
 3. Click **+** next to the mod to enable it.
-4. **Move it up the list.** The overlay closest to the top that has the file wins, so a mod
-   has to sit above anything else shipping `ROM\5\15.DAT` -- that includes NextHD *and* the
-   other Dhalmel mod here.
+4. **Drag it to the top of the list.**
 5. Close the window and **restart the client**. Pivot only picks files up at load, so a
    reload is not enough.
 
-Want the cow today and the neck tomorrow? Leave both installed and just **reorder them**.
-Whichever is higher wins. No reinstalling, no copying files around.
+### Switching between the two mods
 
-Not sure what is actually winning? This tells you, in the order Pivot would load them:
+Leave both installed and just **move the one you want higher**. Whichever is on top wins. No
+reinstalling and no copying files around -- unless both are installed into an HD pack folder,
+where only one file can occupy that slot at a time.
+
+### Not sure what is actually loading?
+
+This prints every overlay that carries the file, in the order Pivot reads them, and names the
+one that wins:
 
 ```powershell
 tools\verify-pivot.ps1 -DatPath ROM\5\15.DAT
 ```
 
-### Skip the ordering fight entirely with the Next HD versions
-
-The **Next HD Dat** of each mod is built from NextHD's own Dhalmel (same mesh, skeleton and
-animations as retail, double-resolution textures) and drops straight into your `NextHD`
-folder, replacing its `ROM\5\15.DAT`. Each mod's HD file lives at
-`nexthd/<mod>/NextHD/ROM/5/15.DAT`, so you can copy that `NextHD` folder over yours. Once you do that, NextHD
-can sit anywhere in the list -- there is nothing left to outrank, because NextHD is now
-serving the modded file itself.
-
-Back up the file before you replace it. The pristine copy is in
-[`original/nexthd/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/original/nexthd)
-if you ever want it back.
-
 ---
 
 ## Mod #1 -- Cow
 
-The Dhalmel, rebuilt as a cow.
+The Dhalmel, rebuilt as a cow -- Holstein markings and all.
 
 ![Dhalmel Cow](docs/images/dhalmel-cow-preview.png)
 
 ![Dhalmel Cow reference](docs/images/dhalmel-cow-reference.png)
 
-**Install as a new overlay:** copy `DhalmelCow` into your Pivot folder.
-
-| variant | | |
-|---|---|---|
-| **Retail Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelCow/ROM/5/15.DAT) | 522,944 B |
-| **Next HD Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelCow/NextHD/ROM/5/15.DAT) | 817,856 B |
+| variant | for | download | size |
+|---|---|---|---|
+| **Retail Dat** | no HD packs | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelCow/ROM/5/15.DAT) | 522,944 B |
+| **Next HD Dat** | NextHD users | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelCow/NextHD/ROM/5/15.DAT) | 817,856 B |
 
 ```
 retail   SHA-256 5009110241d3eedb7390c645571ba80cdf4b521f7d0b9b6fbac3c72f2fc18244
 nexthd   SHA-256 47b16adc0d59a724929b2607d3ab544f7a58ed5ac605e0fcdb2fb5ce4ee20164
 ```
 
-The Next HD build is the same cow made from NextHD's own Dhalmel, so it keeps NextHD's
-double-resolution textures (512x512 and 256x512) under the Holstein paint. Same check as
-the retail one: the NextHD Dhalmel round-trips byte-identical through the writer first.
+The HD build is the same cow made on NextHD's own Dhalmel, so it keeps NextHD's
+double-resolution textures (512x512 and 256x512) under the paint.
 
 ---
 
 ## Mod #2 -- Neck mod
 
-The head and neck replaced with one procedural purple shaft, weighted onto the neck and head
-bones so it bends with the neck and nods with the head.
+Head and neck replaced with one procedural purple shaft, weighted onto the neck and head bones
+so it bends with the neck and nods with the head.
 
 ![Dhalmel Neck in game](docs/images/dhalmel-neck-ingame.png)
 
@@ -84,22 +122,31 @@ bones so it bends with the neck and nods with the head.
 The second image is an offline render with no lighting -- the one to judge shape and the raw
 `#9A2BD8` colour from.
 
-**Install as a new overlay:** copy `DhalmelShaft` into your Pivot folder.
-
-| variant | | |
-|---|---|---|
-| **Retail Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelShaft/ROM/5/15.DAT) | 501,024 B |
-| **Next HD Dat** | [download](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelShaft/NextHD/ROM/5/15.DAT) | 795,936 B |
+| variant | for | download | size |
+|---|---|---|---|
+| **Retail Dat** | no HD packs | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/retail/DhalmelShaft/ROM/5/15.DAT) | 501,024 B |
+| **Next HD Dat** | NextHD users | [get it](https://github.com/cowrevenge/ffxi_mod_files/raw/main/nexthd/DhalmelShaft/NextHD/ROM/5/15.DAT) | 795,936 B |
 
 ```
 retail   SHA-256 86f9a5b7c83614b49c3e7a71dd93e0143e157a2fd4b53c5c12ec46d6ff561ad3
 nexthd   SHA-256 224b70d410b6cd8288757f6a71f015f84f7eeb8eb032eedf15b5c41bdf639bff
 ```
 
-The Next HD build was checked the same way as the retail one: the NextHD Dhalmel round-trips
-byte-identical through the writer before and after the swap.
-
 ---
+
+## Both builds, both bases, checked the same way
+
+NextHD's Dhalmel has the **same mesh, skeleton and animations as retail** -- only the textures
+are double resolution. That is why the HD variants need their own builds: the writer has to be
+lossless on a different file, and it is. Every mod here was preceded by a byte-identical round
+trip of its own base file, and every one of these DATs is listed with its hash in
+[`SHA256SUMS.txt`](SHA256SUMS.txt).
+
+Check anything before trusting it:
+
+```powershell
+Get-FileHash -Algorithm SHA256 .\retail\DhalmelCow\ROM\5\15.DAT
+```
 
 ## Download everything
 
@@ -107,14 +154,7 @@ byte-identical through the writer before and after the swap.
 |---|---|
 | **All retail versions** | [`retail/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/retail) |
 | **All Next HD versions** | [`nexthd/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/nexthd) |
-| Originals, both bases | [`original/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/original) |
-
-Every file and its hash is listed in [`SHA256SUMS.txt`](SHA256SUMS.txt). Check one before
-trusting it:
-
-```powershell
-Get-FileHash -Algorithm SHA256 .\retail\DhalmelCow\ROM\5\15.DAT
-```
+| **Originals, both bases** | [`original/`](https://github.com/cowrevenge/ffxi_mod_files/tree/main/original) |
 
 ---
 
@@ -143,8 +183,12 @@ cargo run --release -- "C:\path\to\15.DAT" --check
 # round trip: byte-identical (776896 bytes)
 ```
 
-This is the step that matters, because it is the only proof nothing outside the bits you
-changed has drifted.
+That step is the whole point of the tool. It is the only proof that nothing outside the bits
+you changed has drifted -- including the 4 padding bytes retail leaves dirty after the vertex
+data, which a naive writer would quietly zero.
+
+Use the file that matches how you play: your retail `ROM\5\15.DAT` for the retail build, or
+NextHD's copy for the HD build.
 
 ### Which file is your model?
 
@@ -176,8 +220,8 @@ Shape lives in the `const`s at the top of `src/main.rs` -- `PURPLE`, `SHAFT_RADI
 - **A rebuild will not be bit-identical to a file in this repo.** Same model, a few thousand
   bytes different from floating-point noise in the compiler. Invisible in game. Want the
   exact file that was checked in, download it; changed a `const`, rebuild.
-- **Colour via texture, not tint.** The purple is a small solid DXT3 chunk appended to the
-  DAT, not a `t_factor` value.
+- **Colour comes from a texture, not a tint.** The purple is a small solid DXT3 chunk appended
+  to the DAT, not a `t_factor` value.
 
 ---
 
