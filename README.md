@@ -267,7 +267,7 @@ Mithra, Galka; Taru's layout never had the problem).
 ![Bone, all races](docs/images/allraces-set-bone-20261106a.png)
 
 **Lizard**
-![Lizard, all races](docs/images/allraces-set-lizard-20261106a.png)
+![Lizard, all races](docs/images/allraces-set-lizard-20261106b.png)
 
 **Scale**
 ![Scale, all races](docs/images/allraces-set-scale-20261106a.png)
@@ -322,10 +322,10 @@ pass finds each race's own skin tone in smooth areas and leaves it out of the le
 Original on top, new below.
 
 **Warrior (Fighter's)**
-![Warrior (Fighter's)](docs/images/allraces-af_war-20261106a.png)
+![Warrior (Fighter's)](docs/images/allraces-af_war-20261106b.png)
 
 **Monk (Temple)**
-![Monk (Temple)](docs/images/allraces-af_mnk-20261106a.png)
+![Monk (Temple)](docs/images/allraces-af_mnk-20261106b.png)
 
 **White Mage (Healer's)**
 ![White Mage (Healer's)](docs/images/allraces-af_whm-20261106a.png)
@@ -337,7 +337,7 @@ Original on top, new below.
 ![Red Mage (Warlock's)](docs/images/allraces-af_rdm-20261106a.png)
 
 **Thief (Rogue's)**
-![Thief (Rogue's)](docs/images/allraces-af_thf-20261106a.png)
+![Thief (Rogue's)](docs/images/allraces-af_thf-20261106b.png)
 
 **Paladin (Gallant)**
 ![Paladin (Gallant)](docs/images/allraces-af_pld-20261106a.png)
@@ -346,7 +346,7 @@ Original on top, new below.
 ![Dark Knight (Chaos)](docs/images/allraces-af_drk-20261106a.png)
 
 **Beastmaster (Beast)**
-![Beastmaster (Beast)](docs/images/allraces-af_bst-20261106a.png)
+![Beastmaster (Beast)](docs/images/allraces-af_bst-20261106b.png)
 
 **Bard (Choral)**
 ![Bard (Choral)](docs/images/allraces-af_brd-20261106a.png)
@@ -382,7 +382,7 @@ Original on top, new below.
 ![Scholar's](docs/images/allraces-af_sch-20261106a.png)
 
 **Geomancer (Geomancy)**
-![Geomancer (Geomancy)](docs/images/allraces-af_geo-20261106a.png)
+![Geomancer (Geomancy)](docs/images/allraces-af_geo-20261106b.png)
 
 **Rune Fencer (Runeist)**
 ![Rune Fencer (Runeist)](docs/images/allraces-af_run-20261106a.png)
@@ -392,6 +392,29 @@ Original on top, new below.
 
 **RSE, lv27-33**
 ![RSE lv27-33](docs/images/allraces-rse_lv30-20261106a.png)
+
+## Mod #16: Legionnaire's set and Royal Footman's, every race
+
+The automatic HD pass on Legionnaire's (cap, harness, mittens, subligar, leggings, and the
+circlet) and on the two Royal Footman's pieces the Leather set doesn't already cover (tunic,
+clogs), for all eight races, with the fuller-bust chest for Hume F, Elvaan F and Mithra. The
+rest of Royal Footman's (bandana, vest, gloves, trousers, boots) shares the Leather set's files.
+
+Bare skin keeps its colour on every race now: Hume M, Elvaan M and Taru were added (their
+skin counts only where it is a real stretch of bare skin, since smaller patches of that
+tone are leather). That also fixed bare chests, arms and shins in WAR, MNK, THF, BST and GEO
+artifact armour and the Lizard helm.
+
+| set | take this folder |
+|---|---|
+| Legionnaire's | [](retail/AutoHD-Legionnaire-AllRaces) |
+| Royal Footman's tunic and clogs | [](retail/AutoHD-RoyalFootman-AllRaces) |
+
+**Legionnaire's**
+![Legionnaire's, all races](docs/images/allraces-set-legion-20261106b.png)
+
+**Royal Footman's tunic and clogs, Legionnaire's circlet**
+![Royal Footman's, all races](docs/images/allraces-set-footman-20261106b.png)
 
 ---
 
