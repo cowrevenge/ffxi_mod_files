@@ -230,6 +230,45 @@ as the Bounding Boots, so the folder carries the Bounding Boots HD file.
 **Leather vest**
 ![Leather vest](docs/images/busty-leather-20261105e.png)
 
+## Mod #12: The test sets, whole, for every race
+
+Mods 8, 9 and 11 together for all eight races (Taru male and female share their gear
+files): every piece of each set gets the automatic HD pass (Eisen/Kampf gets the polished
+finish), the Hume F, Elvaan F and Mithra chests are the fuller-bust ones from Mod #11, and
+Lizard Ledelsens are the Bounding Boots HD file for each race. Mithra and Galka tails keep
+their natural look. Each folder holds every race at once; the game only loads the files
+your race uses.
+
+| set | take this folder |
+|---|---|
+| Seer's (cloth) | [`retail/AutoHD-Seers-AllRaces`](retail/AutoHD-Seers-AllRaces) |
+| Eisen/Kampf, polished | [`retail/EisenKampfPolished-AllRaces`](retail/EisenKampfPolished-AllRaces) |
+| Bone | [`retail/AutoHD-Bone-AllRaces`](retail/AutoHD-Bone-AllRaces) |
+| Lizard | [`retail/AutoHD-Lizard-AllRaces`](retail/AutoHD-Lizard-AllRaces) |
+| Scale (lv10) | [`retail/AutoHD-Scale-AllRaces`](retail/AutoHD-Scale-AllRaces) |
+| Leather (lv7) | [`retail/AutoHD-Leather-AllRaces`](retail/AutoHD-Leather-AllRaces) |
+
+Use these instead of the `-HumeM` and `Busty-` folders of Mods 8, 9 and 11: they hold the
+same files plus every other race. Original on top, new below.
+
+**Seer's**
+![Seer's, all races](docs/images/allraces-set-seers-20261105f.png)
+
+**Eisen/Kampf, polished**
+![Eisen/Kampf, all races](docs/images/allraces-set-kampf-20261105f.png)
+
+**Bone**
+![Bone, all races](docs/images/allraces-set-bone-20261105f.png)
+
+**Lizard**
+![Lizard, all races](docs/images/allraces-set-lizard-20261105f.png)
+
+**Scale**
+![Scale, all races](docs/images/allraces-set-scale-20261105f.png)
+
+**Leather**
+![Leather, all races](docs/images/allraces-set-leather-20261105f.png)
+
 ---
 
 ## Install
