@@ -140,6 +140,44 @@ leather, no armour.
 **Galka**
 ![Galka](docs/images/allraces-Galka-20261105b.png)
 
+## Mod #8: Auto HD sets (Hume male)
+
+The automatic HD pass: every item keeps its own design and colours, cleaned up the
+way the Centurion HD set was (crisper lines, brighter and cleaner colour per material,
+light leather grain and brushed steel), 4x textures, cut-outs kept. This is the pass
+that will run over all gear; these are its test sets.
+
+| set | take this folder |
+|---|---|
+| Seer's (cloth) | [`retail/AutoHD-Seers-HumeM`](retail/AutoHD-Seers-HumeM) |
+| Bone | [`retail/AutoHD-Bone-HumeM`](retail/AutoHD-Bone-HumeM) |
+| Lizard | [`retail/AutoHD-Lizard-HumeM`](retail/AutoHD-Lizard-HumeM) |
+| Scale (lv10) | [`retail/AutoHD-Scale-HumeM`](retail/AutoHD-Scale-HumeM) |
+| Leather (lv7) | [`retail/AutoHD-Leather-HumeM`](retail/AutoHD-Leather-HumeM) |
+
+Lizard Ledelsens use the same file as the Bounding Boots, so they are left out here:
+with Bounding Boots HD on, they show the Bounding Boots look.
+
+![Seer's](docs/images/autohd-seers-20261105c.png)
+![Bone](docs/images/autohd-bone-20261105c.png)
+![Lizard](docs/images/autohd-lizard-20261105c.png)
+![Scale](docs/images/autohd-scale-20261105c.png)
+![Leather](docs/images/autohd-leather-20261105c.png)
+
+## Mod #9: Eisen / Kampf, polished (Hume male)
+
+The auto HD pass plus a hand-tuned finish on the steel: deeper engraving cuts, a
+polished highlight curve and a cool silver tone. The dark padded suit and brown leather
+stay as they are. Eisen and Kampf share the same files, so this covers both.
+
+| you use | take this folder |
+|---|---|
+| Hume male | [`retail/EisenKampfPolished-HumeM`](retail/EisenKampfPolished-HumeM) |
+
+![Eisen polished, close](docs/images/eisen-polished-close-20261105c.png)
+
+![Eisen: original / auto HD / polished](docs/images/eisen-polished-20261105c.png)
+
 ---
 
 ## Install
