@@ -155,8 +155,8 @@ that will run over all gear; these are its test sets.
 | Scale (lv10) | [`retail/AutoHD-Scale-HumeM`](retail/AutoHD-Scale-HumeM) |
 | Leather (lv7) | [`retail/AutoHD-Leather-HumeM`](retail/AutoHD-Leather-HumeM) |
 
-Lizard Ledelsens use the same file as the Bounding Boots, so they are left out here:
-with Bounding Boots HD on, they show the Bounding Boots look.
+Lizard Ledelsens use the same file as the Bounding Boots, so the Lizard folder carries the
+Bounding Boots HD file for the feet.
 
 ![Seer's](docs/images/autohd-seers-20261105c.png)
 ![Bone](docs/images/autohd-bone-20261105c.png)
@@ -193,6 +193,42 @@ Put it **above** `CenturionBastokPride-AllRaces` in `/pivot`: it replaces only t
 three female chest files.
 
 ![Bastok Pride, fuller bust: stock / new](docs/images/bastok-pride-busty-20261105d.png)
+
+## Mod #11: Test sets with a fuller bust (Hume F, Elvaan F, Mithra)
+
+The chest pieces of the six test sets for the female races: the auto HD texture (the
+polished finish for Eisen/Kampf), the same hand-tuned bust shape as Mod #10 with added
+vertices, and the shading re-baked from the new shape. **Chest pieces only.**
+
+| set | take this folder |
+|---|---|
+| Seer's tunic | [`retail/Busty-Seers-FemaleRaces`](retail/Busty-Seers-FemaleRaces) |
+| Eisen/Kampfbrust, polished | [`retail/Busty-EisenKampfPolished-FemaleRaces`](retail/Busty-EisenKampfPolished-FemaleRaces) |
+| Bone harness | [`retail/Busty-Bone-FemaleRaces`](retail/Busty-Bone-FemaleRaces) |
+| Lizard jerkin | [`retail/Busty-Lizard-FemaleRaces`](retail/Busty-Lizard-FemaleRaces) |
+| Scale mail | [`retail/Busty-Scale-FemaleRaces`](retail/Busty-Scale-FemaleRaces) |
+| Leather vest | [`retail/Busty-Leather-FemaleRaces`](retail/Busty-Leather-FemaleRaces) |
+
+Hume male's Lizard set (Mod #8) now includes its feet: Lizard Ledelsens use the same file
+as the Bounding Boots, so the folder carries the Bounding Boots HD file.
+
+**Seer's tunic**
+![Seer's tunic](docs/images/busty-seers-20261105e.png)
+
+**Eisen/Kampfbrust, polished**
+![Eisen/Kampfbrust, polished](docs/images/busty-kampf-20261105e.png)
+
+**Bone harness**
+![Bone harness](docs/images/busty-bone-20261105e.png)
+
+**Lizard jerkin**
+![Lizard jerkin](docs/images/busty-lizard-20261105e.png)
+
+**Scale mail**
+![Scale mail](docs/images/busty-scale-20261105e.png)
+
+**Leather vest**
+![Leather vest](docs/images/busty-leather-20261105e.png)
 
 ---
 
