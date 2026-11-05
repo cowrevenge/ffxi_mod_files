@@ -296,6 +296,97 @@ Mod #7 already covers hand-painted.
 
 ![Mercenary Captain's, all races](docs/images/allraces-set-merccaptain-20261105g.png)
 
+## Mod #15: Artifact armour (all 22 jobs) and RSE, every race
+
+The automatic HD pass on every job's artifact armour (head, body, hands, legs, feet) and on
+both looks of the race-specific sets (lv1, which the lv62 gloves and boots share, and lv27-33:
+Custom, Magna, Elder's, Savage, Wonder), for all eight races. Female chests get the
+fuller bust. The +1 versions use the same files. Dancer's has a male and a female look;
+each race gets its own.
+
+Bare skin painted into the gear (thighs, midriffs, arms) now keeps its natural colour: the
+pass finds each race's own skin tone in smooth areas and leaves it out of the leather boost
+(Hume F, Elvaan F, Mithra, Galka). The bust shading on the chest now changes lightness only.
+
+| set | take this folder |
+|---|---|
+| Artifact armour, all jobs | [`retail/AutoHD-AF-AllRaces`](retail/AutoHD-AF-AllRaces) |
+| Race-specific equipment | [`retail/AutoHD-RSE-AllRaces`](retail/AutoHD-RSE-AllRaces) |
+
+Original on top, new below.
+
+**Warrior (Fighter's)**
+![Warrior (Fighter's)](docs/images/allraces-af_war-20261105h.png)
+
+**Monk (Temple)**
+![Monk (Temple)](docs/images/allraces-af_mnk-20261105h.png)
+
+**White Mage (Healer's)**
+![White Mage (Healer's)](docs/images/allraces-af_whm-20261105h.png)
+
+**Black Mage (Wizard's)**
+![Black Mage (Wizard's)](docs/images/allraces-af_blm-20261105h.png)
+
+**Red Mage (Warlock's)**
+![Red Mage (Warlock's)](docs/images/allraces-af_rdm-20261105h.png)
+
+**Thief (Rogue's)**
+![Thief (Rogue's)](docs/images/allraces-af_thf-20261105h.png)
+
+**Paladin (Gallant)**
+![Paladin (Gallant)](docs/images/allraces-af_pld-20261105h.png)
+
+**Dark Knight (Chaos)**
+![Dark Knight (Chaos)](docs/images/allraces-af_drk-20261105h.png)
+
+**Beastmaster (Beast)**
+![Beastmaster (Beast)](docs/images/allraces-af_bst-20261105h.png)
+
+**Bard (Choral)**
+![Bard (Choral)](docs/images/allraces-af_brd-20261105h.png)
+
+**Ranger (Hunter's)**
+![Ranger (Hunter's)](docs/images/allraces-af_rng-20261105h.png)
+
+**Samurai (Myochin)**
+![Samurai (Myochin)](docs/images/allraces-af_sam-20261105h.png)
+
+**Ninja**
+![Ninja](docs/images/allraces-af_nin-20261105h.png)
+
+**Dragoon (Drachen)**
+![Dragoon (Drachen)](docs/images/allraces-af_drg-20261105h.png)
+
+**Summoner (Evoker's)**
+![Summoner (Evoker's)](docs/images/allraces-af_smn-20261105h.png)
+
+**Blue Mage (Magus)**
+![Blue Mage (Magus)](docs/images/allraces-af_blu-20261105h.png)
+
+**Corsair's**
+![Corsair's](docs/images/allraces-af_cor-20261105h.png)
+
+**Puppetmaster (Puppetry)**
+![Puppetmaster (Puppetry)](docs/images/allraces-af_pup-20261105h.png)
+
+**Dancer's**
+![Dancer's](docs/images/allraces-af_dnc-20261105h.png)
+
+**Scholar's**
+![Scholar's](docs/images/allraces-af_sch-20261105h.png)
+
+**Geomancer (Geomancy)**
+![Geomancer (Geomancy)](docs/images/allraces-af_geo-20261105h.png)
+
+**Rune Fencer (Runeist)**
+![Rune Fencer (Runeist)](docs/images/allraces-af_run-20261105h.png)
+
+**RSE, lv1 (and lv62 hands/feet)**
+![RSE lv1](docs/images/allraces-rse_lv1-20261105h.png)
+
+**RSE, lv27-33**
+![RSE lv27-33](docs/images/allraces-rse_lv30-20261105h.png)
+
 ---
 
 ## Install
