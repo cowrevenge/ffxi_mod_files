@@ -83,7 +83,7 @@ bound with light piping. Cloth only, no blue.
 
 Bastok Pride with the Bounding Boots and Battle Gloves is the BLU outfit:
 
-![Bastok Pride with Bounding Boots HD and Battle Gloves HD](docs/images/bastok-pride-blu-outfit.png)
+![Bastok Pride with Bounding Boots HD and Battle Gloves HD](docs/images/bastok-pride-blu-outfit-20261105b.png)
 
 Mods 4, 5 and 6 don't share any files: turn on all three. Mod 3 shares files with all of
 them: whichever is higher in `/pivot` wins.
@@ -108,37 +108,37 @@ hand-painted design; parts laid out differently (Galka's thigh guards, the Mithr
 set) get the same colours from the automatic pass. The Taru cuisses, greaves and Bounding
 Boots are hand-painted on the Taru layout:
 
-![Tarutaru legs and shoes](docs/images/taru-detail.png)
+![Tarutaru legs and shoes](docs/images/taru-detail-20261105b.png)
 
  Hume F, Elvaan F and Mithra
 get the same stacked chest scales, lit by their own model's curve so the bust reads round:
 
-![Female chest: original and new](docs/images/female-chest.png)
+![Female chest: original and new](docs/images/female-chest-20261105b.png)
 
  The original alpha values
 are kept as stored (Taru gear marks solid texels as 119/136, not 255). Mithra tails stay plain
 leather, no armour.
 
 **Hume male**
-![Hume male](docs/images/allraces-HumeM.png)
+![Hume male](docs/images/allraces-HumeM-20261105b.png)
 
 **Hume female**
-![Hume female](docs/images/allraces-HumeF.png)
+![Hume female](docs/images/allraces-HumeF-20261105b.png)
 
 **Elvaan male**
-![Elvaan male](docs/images/allraces-ElvaanM.png)
+![Elvaan male](docs/images/allraces-ElvaanM-20261105b.png)
 
 **Elvaan female**
-![Elvaan female](docs/images/allraces-ElvaanF.png)
+![Elvaan female](docs/images/allraces-ElvaanF-20261105b.png)
 
 **Tarutaru (male and female)**
-![Tarutaru](docs/images/allraces-Taru.png)
+![Tarutaru](docs/images/allraces-Taru-20261105b.png)
 
 **Mithra**
-![Mithra](docs/images/allraces-Mithra.png)
+![Mithra](docs/images/allraces-Mithra-20261105b.png)
 
 **Galka**
-![Galka](docs/images/allraces-Galka.png)
+![Galka](docs/images/allraces-Galka-20261105b.png)
 
 ---
 
