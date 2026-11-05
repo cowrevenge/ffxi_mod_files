@@ -407,8 +407,8 @@ artifact armour and the Lizard helm.
 
 | set | take this folder |
 |---|---|
-| Legionnaire's | [](retail/AutoHD-Legionnaire-AllRaces) |
-| Royal Footman's tunic and clogs | [](retail/AutoHD-RoyalFootman-AllRaces) |
+| Legionnaire's | [`retail/AutoHD-Legionnaire-AllRaces`](retail/AutoHD-Legionnaire-AllRaces) |
+| Royal Footman's tunic and clogs | [`retail/AutoHD-RoyalFootman-AllRaces`](retail/AutoHD-RoyalFootman-AllRaces) |
 
 **Legionnaire's**
 ![Legionnaire's, all races](docs/images/allraces-set-legion-20261106b.png)
