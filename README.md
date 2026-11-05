@@ -105,7 +105,12 @@ Each folder holds every race at once; the game only loads the files your race us
 Use these instead of the `-HumeM` folders (they include Hume male). Where a race's
 texture layout matches Hume male's (Hume F, Elvaan, Mithra, Galka) it gets the
 hand-painted design; parts laid out differently (the Taru layout, Galka's thigh guards,
-the Mithra tail) get the same colours from the automatic pass. The original alpha values
+the Mithra tail) get the same colours from the automatic pass. Hume F, Elvaan F and Mithra
+get the same stacked chest scales, lit by their own model's curve so the bust reads round:
+
+![Female chest: original and new](docs/images/female-chest.png)
+
+ The original alpha values
 are kept as stored (Taru gear marks solid texels as 119/136, not 255). Mithra tails stay plain
 leather, no armour.
 
