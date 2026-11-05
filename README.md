@@ -282,6 +282,20 @@ Ram, Breeches, Mufflers and Sollerets get it too.
 
 ![Royal Squire's, all races](docs/images/allraces-set-royalsquire-20261105g.png)
 
+## Mod #14: Mercenary Captain's set and Doublet, every race
+
+The automatic HD pass on Mercenary Captain's headgear, doublet, hose and gaiters for all
+eight races, with the fuller-bust chest for Hume F, Elvaan F and Mithra. Doublet uses the
+same files, and so do the Cotton, Linen, Wool, Great, Federation and Windurstian doublets,
+headgear, brais and gaiters. The gloves are left out: they are the Battle Gloves file, which
+Mod #7 already covers hand-painted.
+
+| set | take this folder |
+|---|---|
+| Mercenary Captain's / Doublet | [`retail/AutoHD-MercCaptain-AllRaces`](retail/AutoHD-MercCaptain-AllRaces) |
+
+![Mercenary Captain's, all races](docs/images/allraces-set-merccaptain-20261105g.png)
+
 ---
 
 ## Install
