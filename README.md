@@ -251,23 +251,29 @@ your race uses.
 Use these instead of the `-HumeM` and `Busty-` folders of Mods 8, 9 and 11: they hold the
 same files plus every other race. Original on top, new below.
 
+Update: bare skin painted into the gear (Hume F, Elvaan F and Mithra thighs and midriffs,
+Galka shins) keeps its natural colour instead of turning orange; Mods 13 and 14 got the same
+fix. Scale Mail's front plates (chest and lower panel) are redrawn: straight lines, square
+stacked plates and a clean centre line where the two mirrored halves meet (Hume, Elvaan,
+Mithra, Galka; Taru's layout never had the problem).
+
 **Seer's**
-![Seer's, all races](docs/images/allraces-set-seers-20261105f.png)
+![Seer's, all races](docs/images/allraces-set-seers-20261106a.png)
 
 **Eisen/Kampf, polished**
-![Eisen/Kampf, all races](docs/images/allraces-set-kampf-20261105f.png)
+![Eisen/Kampf, all races](docs/images/allraces-set-kampf-20261106a.png)
 
 **Bone**
-![Bone, all races](docs/images/allraces-set-bone-20261105f.png)
+![Bone, all races](docs/images/allraces-set-bone-20261106a.png)
 
 **Lizard**
-![Lizard, all races](docs/images/allraces-set-lizard-20261105f.png)
+![Lizard, all races](docs/images/allraces-set-lizard-20261106a.png)
 
 **Scale**
-![Scale, all races](docs/images/allraces-set-scale-20261105f.png)
+![Scale, all races](docs/images/allraces-set-scale-20261106a.png)
 
 **Leather**
-![Leather, all races](docs/images/allraces-set-leather-20261105f.png)
+![Leather, all races](docs/images/allraces-set-leather-20261106a.png)
 
 ## Mod #13: Royal Squire's set, every race
 
@@ -280,7 +286,7 @@ Ram, Breeches, Mufflers and Sollerets get it too.
 |---|---|
 | Royal Squire's | [`retail/AutoHD-RoyalSquire-AllRaces`](retail/AutoHD-RoyalSquire-AllRaces) |
 
-![Royal Squire's, all races](docs/images/allraces-set-royalsquire-20261105g.png)
+![Royal Squire's, all races](docs/images/allraces-set-royalsquire-20261106a.png)
 
 ## Mod #14: Mercenary Captain's set and Doublet, every race
 
@@ -294,7 +300,7 @@ Mod #7 already covers hand-painted.
 |---|---|
 | Mercenary Captain's / Doublet | [`retail/AutoHD-MercCaptain-AllRaces`](retail/AutoHD-MercCaptain-AllRaces) |
 
-![Mercenary Captain's, all races](docs/images/allraces-set-merccaptain-20261105g.png)
+![Mercenary Captain's, all races](docs/images/allraces-set-merccaptain-20261106a.png)
 
 ## Mod #15: Artifact armour (all 22 jobs) and RSE, every race
 
@@ -316,76 +322,76 @@ pass finds each race's own skin tone in smooth areas and leaves it out of the le
 Original on top, new below.
 
 **Warrior (Fighter's)**
-![Warrior (Fighter's)](docs/images/allraces-af_war-20261105h.png)
+![Warrior (Fighter's)](docs/images/allraces-af_war-20261106a.png)
 
 **Monk (Temple)**
-![Monk (Temple)](docs/images/allraces-af_mnk-20261105h.png)
+![Monk (Temple)](docs/images/allraces-af_mnk-20261106a.png)
 
 **White Mage (Healer's)**
-![White Mage (Healer's)](docs/images/allraces-af_whm-20261105h.png)
+![White Mage (Healer's)](docs/images/allraces-af_whm-20261106a.png)
 
 **Black Mage (Wizard's)**
-![Black Mage (Wizard's)](docs/images/allraces-af_blm-20261105h.png)
+![Black Mage (Wizard's)](docs/images/allraces-af_blm-20261106a.png)
 
 **Red Mage (Warlock's)**
-![Red Mage (Warlock's)](docs/images/allraces-af_rdm-20261105h.png)
+![Red Mage (Warlock's)](docs/images/allraces-af_rdm-20261106a.png)
 
 **Thief (Rogue's)**
-![Thief (Rogue's)](docs/images/allraces-af_thf-20261105h.png)
+![Thief (Rogue's)](docs/images/allraces-af_thf-20261106a.png)
 
 **Paladin (Gallant)**
-![Paladin (Gallant)](docs/images/allraces-af_pld-20261105h.png)
+![Paladin (Gallant)](docs/images/allraces-af_pld-20261106a.png)
 
 **Dark Knight (Chaos)**
-![Dark Knight (Chaos)](docs/images/allraces-af_drk-20261105h.png)
+![Dark Knight (Chaos)](docs/images/allraces-af_drk-20261106a.png)
 
 **Beastmaster (Beast)**
-![Beastmaster (Beast)](docs/images/allraces-af_bst-20261105h.png)
+![Beastmaster (Beast)](docs/images/allraces-af_bst-20261106a.png)
 
 **Bard (Choral)**
-![Bard (Choral)](docs/images/allraces-af_brd-20261105h.png)
+![Bard (Choral)](docs/images/allraces-af_brd-20261106a.png)
 
 **Ranger (Hunter's)**
-![Ranger (Hunter's)](docs/images/allraces-af_rng-20261105h.png)
+![Ranger (Hunter's)](docs/images/allraces-af_rng-20261106a.png)
 
 **Samurai (Myochin)**
-![Samurai (Myochin)](docs/images/allraces-af_sam-20261105h.png)
+![Samurai (Myochin)](docs/images/allraces-af_sam-20261106a.png)
 
 **Ninja**
-![Ninja](docs/images/allraces-af_nin-20261105h.png)
+![Ninja](docs/images/allraces-af_nin-20261106a.png)
 
 **Dragoon (Drachen)**
-![Dragoon (Drachen)](docs/images/allraces-af_drg-20261105h.png)
+![Dragoon (Drachen)](docs/images/allraces-af_drg-20261106a.png)
 
 **Summoner (Evoker's)**
-![Summoner (Evoker's)](docs/images/allraces-af_smn-20261105h.png)
+![Summoner (Evoker's)](docs/images/allraces-af_smn-20261106a.png)
 
 **Blue Mage (Magus)**
-![Blue Mage (Magus)](docs/images/allraces-af_blu-20261105h.png)
+![Blue Mage (Magus)](docs/images/allraces-af_blu-20261106a.png)
 
 **Corsair's**
-![Corsair's](docs/images/allraces-af_cor-20261105h.png)
+![Corsair's](docs/images/allraces-af_cor-20261106a.png)
 
 **Puppetmaster (Puppetry)**
-![Puppetmaster (Puppetry)](docs/images/allraces-af_pup-20261105h.png)
+![Puppetmaster (Puppetry)](docs/images/allraces-af_pup-20261106a.png)
 
 **Dancer's**
-![Dancer's](docs/images/allraces-af_dnc-20261105h.png)
+![Dancer's](docs/images/allraces-af_dnc-20261106a.png)
 
 **Scholar's**
-![Scholar's](docs/images/allraces-af_sch-20261105h.png)
+![Scholar's](docs/images/allraces-af_sch-20261106a.png)
 
 **Geomancer (Geomancy)**
-![Geomancer (Geomancy)](docs/images/allraces-af_geo-20261105h.png)
+![Geomancer (Geomancy)](docs/images/allraces-af_geo-20261106a.png)
 
 **Rune Fencer (Runeist)**
-![Rune Fencer (Runeist)](docs/images/allraces-af_run-20261105h.png)
+![Rune Fencer (Runeist)](docs/images/allraces-af_run-20261106a.png)
 
 **RSE, lv1 (and lv62 hands/feet)**
-![RSE lv1](docs/images/allraces-rse_lv1-20261105h.png)
+![RSE lv1](docs/images/allraces-rse_lv1-20261106a.png)
 
 **RSE, lv27-33**
-![RSE lv27-33](docs/images/allraces-rse_lv30-20261105h.png)
+![RSE lv27-33](docs/images/allraces-rse_lv30-20261106a.png)
 
 ---
 
