@@ -269,6 +269,19 @@ same files plus every other race. Original on top, new below.
 **Leather**
 ![Leather, all races](docs/images/allraces-set-leather-20261105f.png)
 
+## Mod #13: Royal Squire's set, every race
+
+The automatic HD pass on the whole Royal Squire's set (helm, chainmail, mufflers,
+breeches, sollerets) for all eight races, with the fuller-bust chest for Hume F, Elvaan F
+and Mithra. These files are the shared look, so Banded Mail, Kingdom, San d'Orian, Iron
+Ram, Breeches, Mufflers and Sollerets get it too.
+
+| set | take this folder |
+|---|---|
+| Royal Squire's | [`retail/AutoHD-RoyalSquire-AllRaces`](retail/AutoHD-RoyalSquire-AllRaces) |
+
+![Royal Squire's, all races](docs/images/allraces-set-royalsquire-20261105g.png)
+
 ---
 
 ## Install
