@@ -178,6 +178,22 @@ stay as they are. Eisen and Kampf share the same files, so this covers both.
 
 ![Eisen: original / auto HD / polished](docs/images/eisen-polished-20261105c.png)
 
+## Mod #10: Bastok Pride, fuller bust (Hume F, Elvaan F, Mithra)
+
+The Bastok Pride chest with a fuller bust. Vertices are added around the bust (the
+low-poly chest gets about 2.5x the vertices there, re-skinned so they animate), the shape
+is hand-tuned per race, and the scale shading is re-baked from the new shape. The neck,
+arms, waist and back seams do not move, so it fits with every other piece.
+
+| you use | take this folder |
+|---|---|
+| Hume F, Elvaan F, Mithra | [`retail/BastokPrideBusty-FemaleRaces`](retail/BastokPrideBusty-FemaleRaces) |
+
+Put it **above** `CenturionBastokPride-AllRaces` in `/pivot`: it replaces only the
+three female chest files.
+
+![Bastok Pride, fuller bust: stock / new](docs/images/bastok-pride-busty-20261105d.png)
+
 ---
 
 ## Install
