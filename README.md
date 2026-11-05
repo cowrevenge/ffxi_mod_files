@@ -1,502 +1,314 @@
-# Modded Dhalmels for FFXI
+<div align="center">
 
-Pick a mod. Take its folder. Put it in Pivot. Turn it on. Done.
+# Cow's FFXI Mods
 
-The game's own files are never touched. Only you see the mod.
+**HD gear for every race, Bastok Pride, and some very real cows.**
+
+Drop a folder into Pivot and play. The game's own files are never touched, and only you see the mods.
+
+</div>
 
 ---
 
-## Mod #1: Cow
+## Section 1: Dhalmel Mods
 
-![Dhalmel Cow](docs/images/dhalmel-cow-preview.png)
+Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 
-| you use | take this folder |
-|---|---|
-| no HD mods | [`retail/DhalmelCow`](retail/DhalmelCow) |
-| NextHD (or any HD mod) | [`nexthd/DhalmelCow-HD`](nexthd/DhalmelCow-HD) |
+### Real Cows!
 
-## Mod #2: Neck
+[![Real Cows](https://img.shields.io/badge/Download-Real_Cows-8b5a2b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-RealCows.7z)
 
-![Dhalmel Neck](docs/images/dhalmel-neck-ingame.png)
+![Real Cows](docs/images/dhalmel-cow-preview.png)
 
-| you use | take this folder |
-|---|---|
-| no HD mods | [`retail/DhalmelShaft`](retail/DhalmelShaft) |
-| NextHD (or any HD mod) | [`nexthd/DhalmelShaft-HD`](nexthd/DhalmelShaft-HD) |
+<sub>No HD pack (NextHD etc.)? Take [the plain version](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-RealCows-NoHDPack.7z) instead.</sub>
 
-## Mod #3: Centurion set HD (Hume male)
+### Gag Model (Shafty)
 
-![Centurion HD, worn BLU outfit](docs/images/centurion-hd-outfit.png)
+[![Shafty](https://img.shields.io/badge/Download-Shafty-8b5a2b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-Shafty.7z)
 
-![Centurion HD, full set](docs/images/centurion-hd-fullset.png)
+![Shafty](docs/images/dhalmel-neck-ingame.png)
 
-| you use | take this folder |
-|---|---|
-| Hume male | [`retail/CenturionHD-HumeM`](retail/CenturionHD-HumeM) |
+<sub>No HD pack? Take [the plain version](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-Shafty-NoHDPack.7z) instead.</sub>
 
-The original look, sharper. Smoother geometry (16x the triangles, real curves, seams
-still closed) and 4x textures on one shared palette for the whole Centurion set (visor,
-scale mail, gauntlets, cuisses, greaves, sword, axe) plus Battle Gloves and Bounding Boots.
+---
 
-## Mod #4: Centurion Set, Bastok Pride (Hume male)
+## Section 2: Bastok Pride and HD, everything at once
 
-![Centurion HD vs Bastok Pride](docs/images/centurion-hd-vs-bastok-pride.png)
+One folder with **Bastok Pride and all the HD gear** from Section 3, already merged
+(Bastok Pride wins where they overlap). This is the easy pick.
 
-![Bastok Pride, full set](docs/images/bastok-pride-fullset.png)
+[![Everything (Bastok Pride + HD)](https://img.shields.io/badge/Download-Everything_%28Bastok_Pride_%2B_HD%29-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Everything-BastokPride-and-HD.7z)
 
-![Bastok Pride, weapons](docs/images/bastok-pride-weapons.png)
+### Bastok Pride!
 
-![Bastok Pride, cow emblem](docs/images/bastok-pride-cow-emblem.png)
+The Centurion set repainted in bright Bastok colours: indigo cloth, stacked polished
+steel, cool leather and a brass cow emblem on the chest. Comes with **Battle Gloves HD**
+and **Bounding Boots HD** (the BLU outfit), and the fuller bust on Hume F, Elvaan F and
+Mithra. Every race.
 
-| you use | take this folder |
-|---|---|
-| Hume male | [`retail/CenturionBastokPride-HumeM`](retail/CenturionBastokPride-HumeM) |
+[![Bastok Pride](https://img.shields.io/badge/Download-Bastok_Pride-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/BastokPride.7z)
 
-The whole Centurion set painted new in bright Bastok colours: indigo cloth from neck to
-shoes, stacked steel plating that really overlaps, brushed and scratched metal, stitched
-leather in the HD set's cooler browns, indigo gauntlet gloves, and a brass cow emblem on
-the chest. Visor, scale mail, gauntlets, cuisses, greaves, sword and axe.
+![Bastok Pride on every race](docs/img/bastok-pride-allraces.jpg)
 
-## Mod #5: Bounding Boots HD (Hume male)
+<sub>Top: Bastok Pride. Bottom: with Battle Gloves HD and Bounding Boots HD.</sub>
 
-![Bounding Boots HD, original top, new bottom](docs/images/bounding-boots-hd.png)
+---
 
-| you use | take this folder |
-|---|---|
-| Hume male | [`retail/BoundingBootsHD-HumeM`](retail/BoundingBootsHD-HumeM) |
+## Section 3: HD Updates
 
-Painted new: saddle leather shaft, tan toe cap, heel and knee tab, steel ladder buckle,
-dark leather wrap, stitching and rivets. Leather only, no blue.
+The automatic HD pass: every piece keeps its own design and colours, cleaned up and
+brightened, 4x textures, for **every race**. Bare skin keeps its natural colour, and
+female chests on Hume F, Elvaan F and Mithra get the fuller bust.
 
-## Mod #6: Battle Gloves HD (Hume male)
+> **This is all HD gear but NOT Bastok Pride.** Bastok Pride is its own download in Section 2.
 
-![Battle Gloves HD, original top, new bottom](docs/images/battle-gloves-hd.png)
+[![All HD (no Bastok Pride)](https://img.shields.io/badge/Download-All_HD_%28no_Bastok_Pride%29-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-All.7z)
 
-| you use | take this folder |
-|---|---|
-| Hume male | [`retail/BattleGlovesHD-HumeM`](retail/BattleGlovesHD-HumeM) |
+Or grab just the part you want:
 
-Painted new: brown wrapped canvas hands with stitched finger seams, olive quilted cuff
-bound with light piping. Cloth only, no blue.
+### RSE
 
-### Wearing them together
+Race-specific equipment, both looks: lv1 (which the lv62 gloves and boots share) and lv27-33 (Custom, Magna, Elder's, Savage, Wonder).
 
-Bastok Pride with the Bounding Boots and Battle Gloves is the BLU outfit:
+[![RSE](https://img.shields.io/badge/Download-RSE-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-RSE.7z)
 
-![Bastok Pride with Bounding Boots HD and Battle Gloves HD](docs/images/bastok-pride-blu-outfit-20261105b.png)
+![RSE lv1](docs/img/rse_lv1.jpg)
+![RSE lv27-33](docs/img/rse_lv30.jpg)
 
-Mods 4, 5 and 6 don't share any files: turn on all three. Mod 3 shares files with all of
-them: whichever is higher in `/pivot` wins.
+### AF
 
-**Mods 3 to 6 are Hume male only** and use this install's ROM paths, so they only line up
-on a client whose VTABLE maps these items the same way (Phoenix does).
+Artifact armour for all 22 jobs, every piece. The +1 versions use the same files.
 
-## Mod #7: Bastok Pride, Bounding Boots HD, Battle Gloves HD for every race
+[![AF](https://img.shields.io/badge/Download-AF-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-AF.7z)
 
-Mods 4, 5 and 6 for all eight races (Taru male and female share their gear files).
-Each folder holds every race at once; the game only loads the files your race uses.
-
-| mod | take this folder |
-|---|---|
-| Centurion Set, Bastok Pride | [`retail/CenturionBastokPride-AllRaces`](retail/CenturionBastokPride-AllRaces) |
-| Bounding Boots HD | [`retail/BoundingBootsHD-AllRaces`](retail/BoundingBootsHD-AllRaces) |
-| Battle Gloves HD | [`retail/BattleGlovesHD-AllRaces`](retail/BattleGlovesHD-AllRaces) |
-
-Use these instead of the `-HumeM` folders (they include Hume male). Where a race's
-texture layout matches Hume male's (Hume F, Elvaan, Mithra, Galka) it gets the
-hand-painted design; parts laid out differently (Galka's thigh guards, the Mithra tail, the rest of the Taru
-set) get the same colours from the automatic pass. The Taru cuisses, greaves and Bounding
-Boots are hand-painted on the Taru layout:
-
-![Tarutaru legs and shoes](docs/images/taru-detail-20261105b.png)
-
- Hume F, Elvaan F and Mithra
-get the same stacked chest scales, lit by their own model's curve so the bust reads round:
-
-![Female chest: original and new](docs/images/female-chest-20261105b.png)
-
- The original alpha values
-are kept as stored (Taru gear marks solid texels as 119/136, not 255). Mithra tails stay plain
-leather, no armour.
-
-**Hume male**
-![Hume male](docs/images/allraces-HumeM-20261105b.png)
-
-**Hume female**
-![Hume female](docs/images/allraces-HumeF-20261105b.png)
-
-**Elvaan male**
-![Elvaan male](docs/images/allraces-ElvaanM-20261105b.png)
-
-**Elvaan female**
-![Elvaan female](docs/images/allraces-ElvaanF-20261105b.png)
-
-**Tarutaru (male and female)**
-![Tarutaru](docs/images/allraces-Taru-20261105b.png)
-
-**Mithra**
-![Mithra](docs/images/allraces-Mithra-20261105b.png)
-
-**Galka**
-![Galka](docs/images/allraces-Galka-20261105b.png)
-
-## Mod #8: Auto HD sets (Hume male)
-
-The automatic HD pass: every item keeps its own design and colours, cleaned up the
-way the Centurion HD set was (crisper lines, brighter and cleaner colour per material,
-light leather grain and brushed steel), 4x textures, cut-outs kept. This is the pass
-that will run over all gear; these are its test sets.
-
-| set | take this folder |
-|---|---|
-| Seer's (cloth) | [`retail/AutoHD-Seers-HumeM`](retail/AutoHD-Seers-HumeM) |
-| Bone | [`retail/AutoHD-Bone-HumeM`](retail/AutoHD-Bone-HumeM) |
-| Lizard | [`retail/AutoHD-Lizard-HumeM`](retail/AutoHD-Lizard-HumeM) |
-| Scale (lv10) | [`retail/AutoHD-Scale-HumeM`](retail/AutoHD-Scale-HumeM) |
-| Leather (lv7) | [`retail/AutoHD-Leather-HumeM`](retail/AutoHD-Leather-HumeM) |
-
-Lizard Ledelsens use the same file as the Bounding Boots, so the Lizard folder carries the
-Bounding Boots HD file for the feet.
-
-![Seer's](docs/images/autohd-seers-20261105c.png)
-![Bone](docs/images/autohd-bone-20261105c.png)
-![Lizard](docs/images/autohd-lizard-20261105c.png)
-![Scale](docs/images/autohd-scale-20261105c.png)
-![Leather](docs/images/autohd-leather-20261105c.png)
-
-## Mod #9: Eisen / Kampf, polished (Hume male)
-
-The auto HD pass plus a hand-tuned finish on the steel: deeper engraving cuts, a
-polished highlight curve and a cool silver tone. The dark padded suit and brown leather
-stay as they are. Eisen and Kampf share the same files, so this covers both.
-
-| you use | take this folder |
-|---|---|
-| Hume male | [`retail/EisenKampfPolished-HumeM`](retail/EisenKampfPolished-HumeM) |
-
-![Eisen polished, close](docs/images/eisen-polished-close-20261105c.png)
-
-![Eisen: original / auto HD / polished](docs/images/eisen-polished-20261105c.png)
-
-## Mod #10: Bastok Pride, fuller bust (Hume F, Elvaan F, Mithra)
-
-The Bastok Pride chest with a fuller bust. Vertices are added around the bust (the
-low-poly chest gets about 2.5x the vertices there, re-skinned so they animate), the shape
-is hand-tuned per race, and the scale shading is re-baked from the new shape. The neck,
-arms, waist and back seams do not move, so it fits with every other piece.
-
-| you use | take this folder |
-|---|---|
-| Hume F, Elvaan F, Mithra | [`retail/BastokPrideBusty-FemaleRaces`](retail/BastokPrideBusty-FemaleRaces) |
-
-Put it **above** `CenturionBastokPride-AllRaces` in `/pivot`: it replaces only the
-three female chest files.
-
-![Bastok Pride, fuller bust: stock / new](docs/images/bastok-pride-busty-20261105d.png)
-
-## Mod #11: Test sets with a fuller bust (Hume F, Elvaan F, Mithra)
-
-The chest pieces of the six test sets for the female races: the auto HD texture (the
-polished finish for Eisen/Kampf), the same hand-tuned bust shape as Mod #10 with added
-vertices, and the shading re-baked from the new shape. **Chest pieces only.**
-
-| set | take this folder |
-|---|---|
-| Seer's tunic | [`retail/Busty-Seers-FemaleRaces`](retail/Busty-Seers-FemaleRaces) |
-| Eisen/Kampfbrust, polished | [`retail/Busty-EisenKampfPolished-FemaleRaces`](retail/Busty-EisenKampfPolished-FemaleRaces) |
-| Bone harness | [`retail/Busty-Bone-FemaleRaces`](retail/Busty-Bone-FemaleRaces) |
-| Lizard jerkin | [`retail/Busty-Lizard-FemaleRaces`](retail/Busty-Lizard-FemaleRaces) |
-| Scale mail | [`retail/Busty-Scale-FemaleRaces`](retail/Busty-Scale-FemaleRaces) |
-| Leather vest | [`retail/Busty-Leather-FemaleRaces`](retail/Busty-Leather-FemaleRaces) |
-
-Hume male's Lizard set (Mod #8) now includes its feet: Lizard Ledelsens use the same file
-as the Bounding Boots, so the folder carries the Bounding Boots HD file.
-
-**Seer's tunic**
-![Seer's tunic](docs/images/busty-seers-20261105e.png)
-
-**Eisen/Kampfbrust, polished**
-![Eisen/Kampfbrust, polished](docs/images/busty-kampf-20261105e.png)
-
-**Bone harness**
-![Bone harness](docs/images/busty-bone-20261105e.png)
-
-**Lizard jerkin**
-![Lizard jerkin](docs/images/busty-lizard-20261105e.png)
-
-**Scale mail**
-![Scale mail](docs/images/busty-scale-20261105e.png)
-
-**Leather vest**
-![Leather vest](docs/images/busty-leather-20261105e.png)
-
-## Mod #12: The test sets, whole, for every race
-
-Mods 8, 9 and 11 together for all eight races (Taru male and female share their gear
-files): every piece of each set gets the automatic HD pass (Eisen/Kampf gets the polished
-finish), the Hume F, Elvaan F and Mithra chests are the fuller-bust ones from Mod #11, and
-Lizard Ledelsens are the Bounding Boots HD file for each race. Mithra and Galka tails keep
-their natural look. Each folder holds every race at once; the game only loads the files
-your race uses.
-
-| set | take this folder |
-|---|---|
-| Seer's (cloth) | [`retail/AutoHD-Seers-AllRaces`](retail/AutoHD-Seers-AllRaces) |
-| Eisen/Kampf, polished | [`retail/EisenKampfPolished-AllRaces`](retail/EisenKampfPolished-AllRaces) |
-| Bone | [`retail/AutoHD-Bone-AllRaces`](retail/AutoHD-Bone-AllRaces) |
-| Lizard | [`retail/AutoHD-Lizard-AllRaces`](retail/AutoHD-Lizard-AllRaces) |
-| Scale (lv10) | [`retail/AutoHD-Scale-AllRaces`](retail/AutoHD-Scale-AllRaces) |
-| Leather (lv7) | [`retail/AutoHD-Leather-AllRaces`](retail/AutoHD-Leather-AllRaces) |
-
-Use these instead of the `-HumeM` and `Busty-` folders of Mods 8, 9 and 11: they hold the
-same files plus every other race. Original on top, new below.
-
-Update: bare skin painted into the gear (Hume F, Elvaan F and Mithra thighs and midriffs,
-Galka shins) keeps its natural colour instead of turning orange; Mods 13 and 14 got the same
-fix. Scale Mail's front plates (chest and lower panel) are redrawn: straight lines, square
-stacked plates and a clean centre line where the two mirrored halves meet (Hume, Elvaan,
-Mithra, Galka; Taru's layout never had the problem).
-
-**Seer's**
-![Seer's, all races](docs/images/allraces-set-seers-20261106a.png)
-
-**Eisen/Kampf, polished**
-![Eisen/Kampf, all races](docs/images/allraces-set-kampf-20261106a.png)
-
-**Bone**
-![Bone, all races](docs/images/allraces-set-bone-20261106a.png)
-
-**Lizard**
-![Lizard, all races](docs/images/allraces-set-lizard-20261106b.png)
-
-**Scale**
-![Scale, all races](docs/images/allraces-set-scale-20261106a.png)
-
-**Leather**
-![Leather, all races](docs/images/allraces-set-leather-20261106a.png)
-
-## Mod #13: Royal Squire's set, every race
-
-The automatic HD pass on the whole Royal Squire's set (helm, chainmail, mufflers,
-breeches, sollerets) for all eight races, with the fuller-bust chest for Hume F, Elvaan F
-and Mithra. These files are the shared look, so Banded Mail, Kingdom, San d'Orian, Iron
-Ram, Breeches, Mufflers and Sollerets get it too.
-
-| set | take this folder |
-|---|---|
-| Royal Squire's | [`retail/AutoHD-RoyalSquire-AllRaces`](retail/AutoHD-RoyalSquire-AllRaces) |
-
-![Royal Squire's, all races](docs/images/allraces-set-royalsquire-20261106a.png)
-
-## Mod #14: Mercenary Captain's set and Doublet, every race
-
-The automatic HD pass on Mercenary Captain's headgear, doublet, hose and gaiters for all
-eight races, with the fuller-bust chest for Hume F, Elvaan F and Mithra. Doublet uses the
-same files, and so do the Cotton, Linen, Wool, Great, Federation and Windurstian doublets,
-headgear, brais and gaiters. The gloves are left out: they are the Battle Gloves file, which
-Mod #7 already covers hand-painted.
-
-| set | take this folder |
-|---|---|
-| Mercenary Captain's / Doublet | [`retail/AutoHD-MercCaptain-AllRaces`](retail/AutoHD-MercCaptain-AllRaces) |
-
-![Mercenary Captain's, all races](docs/images/allraces-set-merccaptain-20261106a.png)
-
-## Mod #15: Artifact armour (all 22 jobs) and RSE, every race
-
-The automatic HD pass on every job's artifact armour (head, body, hands, legs, feet) and on
-both looks of the race-specific sets (lv1, which the lv62 gloves and boots share, and lv27-33:
-Custom, Magna, Elder's, Savage, Wonder), for all eight races. Female chests get the
-fuller bust. The +1 versions use the same files. Dancer's has a male and a female look;
-each race gets its own.
-
-Bare skin painted into the gear (thighs, midriffs, arms) now keeps its natural colour: the
-pass finds each race's own skin tone in smooth areas and leaves it out of the leather boost
-(Hume F, Elvaan F, Mithra, Galka). The bust shading on the chest now changes lightness only.
-
-| set | take this folder |
-|---|---|
-| Artifact armour, all jobs | [`retail/AutoHD-AF-AllRaces`](retail/AutoHD-AF-AllRaces) |
-| Race-specific equipment | [`retail/AutoHD-RSE-AllRaces`](retail/AutoHD-RSE-AllRaces) |
-
-Original on top, new below.
+<details>
+<summary><b>Show all 22 jobs</b></summary>
 
 **Warrior (Fighter's)**
-![Warrior (Fighter's)](docs/images/allraces-af_war-20261106b.png)
+
+![Warrior (Fighter's)](docs/img/af_war.jpg)
 
 **Monk (Temple)**
-![Monk (Temple)](docs/images/allraces-af_mnk-20261106b.png)
+
+![Monk (Temple)](docs/img/af_mnk.jpg)
 
 **White Mage (Healer's)**
-![White Mage (Healer's)](docs/images/allraces-af_whm-20261106a.png)
+
+![White Mage (Healer's)](docs/img/af_whm.jpg)
 
 **Black Mage (Wizard's)**
-![Black Mage (Wizard's)](docs/images/allraces-af_blm-20261106a.png)
+
+![Black Mage (Wizard's)](docs/img/af_blm.jpg)
 
 **Red Mage (Warlock's)**
-![Red Mage (Warlock's)](docs/images/allraces-af_rdm-20261106a.png)
+
+![Red Mage (Warlock's)](docs/img/af_rdm.jpg)
 
 **Thief (Rogue's)**
-![Thief (Rogue's)](docs/images/allraces-af_thf-20261106b.png)
+
+![Thief (Rogue's)](docs/img/af_thf.jpg)
 
 **Paladin (Gallant)**
-![Paladin (Gallant)](docs/images/allraces-af_pld-20261106a.png)
+
+![Paladin (Gallant)](docs/img/af_pld.jpg)
 
 **Dark Knight (Chaos)**
-![Dark Knight (Chaos)](docs/images/allraces-af_drk-20261106a.png)
+
+![Dark Knight (Chaos)](docs/img/af_drk.jpg)
 
 **Beastmaster (Beast)**
-![Beastmaster (Beast)](docs/images/allraces-af_bst-20261106b.png)
+
+![Beastmaster (Beast)](docs/img/af_bst.jpg)
 
 **Bard (Choral)**
-![Bard (Choral)](docs/images/allraces-af_brd-20261106a.png)
+
+![Bard (Choral)](docs/img/af_brd.jpg)
 
 **Ranger (Hunter's)**
-![Ranger (Hunter's)](docs/images/allraces-af_rng-20261106a.png)
+
+![Ranger (Hunter's)](docs/img/af_rng.jpg)
 
 **Samurai (Myochin)**
-![Samurai (Myochin)](docs/images/allraces-af_sam-20261106a.png)
+
+![Samurai (Myochin)](docs/img/af_sam.jpg)
 
 **Ninja**
-![Ninja](docs/images/allraces-af_nin-20261106a.png)
+
+![Ninja](docs/img/af_nin.jpg)
 
 **Dragoon (Drachen)**
-![Dragoon (Drachen)](docs/images/allraces-af_drg-20261106a.png)
+
+![Dragoon (Drachen)](docs/img/af_drg.jpg)
 
 **Summoner (Evoker's)**
-![Summoner (Evoker's)](docs/images/allraces-af_smn-20261106a.png)
+
+![Summoner (Evoker's)](docs/img/af_smn.jpg)
 
 **Blue Mage (Magus)**
-![Blue Mage (Magus)](docs/images/allraces-af_blu-20261106a.png)
+
+![Blue Mage (Magus)](docs/img/af_blu.jpg)
 
 **Corsair's**
-![Corsair's](docs/images/allraces-af_cor-20261106a.png)
+
+![Corsair's](docs/img/af_cor.jpg)
 
 **Puppetmaster (Puppetry)**
-![Puppetmaster (Puppetry)](docs/images/allraces-af_pup-20261106a.png)
+
+![Puppetmaster (Puppetry)](docs/img/af_pup.jpg)
 
 **Dancer's**
-![Dancer's](docs/images/allraces-af_dnc-20261106a.png)
+
+![Dancer's](docs/img/af_dnc.jpg)
 
 **Scholar's**
-![Scholar's](docs/images/allraces-af_sch-20261106a.png)
+
+![Scholar's](docs/img/af_sch.jpg)
 
 **Geomancer (Geomancy)**
-![Geomancer (Geomancy)](docs/images/allraces-af_geo-20261106b.png)
+
+![Geomancer (Geomancy)](docs/img/af_geo.jpg)
 
 **Rune Fencer (Runeist)**
-![Rune Fencer (Runeist)](docs/images/allraces-af_run-20261106a.png)
 
-**RSE, lv1 (and lv62 hands/feet)**
-![RSE lv1](docs/images/allraces-rse_lv1-20261106a.png)
+![Rune Fencer (Runeist)](docs/img/af_run.jpg)
 
-**RSE, lv27-33**
-![RSE lv27-33](docs/images/allraces-rse_lv30-20261106a.png)
+</details>
 
-## Mod #16: Legionnaire's set and Royal Footman's, every race
+### Other Gear
 
-The automatic HD pass on Legionnaire's (cap, harness, mittens, subligar, leggings, and the
-circlet) and on the two Royal Footman's pieces the Leather set doesn't already cover (tunic,
-clogs), for all eight races, with the fuller-bust chest for Hume F, Elvaan F and Mithra. The
-rest of Royal Footman's (bandana, vest, gloves, trousers, boots) shares the Leather set's files.
+The test sets (Seer's, polished Eisen/Kampf, Bone, Lizard, Scale, Leather), Royal Squire's, Mercenary Captain's, Legionnaire's, Royal Footman's, Centurion HD (Hume male), Battle Gloves HD and Bounding Boots HD. Many other items share these looks and get it too.
 
-Bare skin keeps its colour on every race now: Hume M, Elvaan M and Taru were added (their
-skin counts only where it is a real stretch of bare skin, since smaller patches of that
-tone are leather). That also fixed bare chests, arms and shins in WAR, MNK, THF, BST and GEO
-artifact armour and the Lizard helm.
+[![Other Gear](https://img.shields.io/badge/Download-Other_Gear-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-OtherGear.7z)
 
-| set | take this folder |
-|---|---|
-| Legionnaire's | [`retail/AutoHD-Legionnaire-AllRaces`](retail/AutoHD-Legionnaire-AllRaces) |
-| Royal Footman's tunic and clogs | [`retail/AutoHD-RoyalFootman-AllRaces`](retail/AutoHD-RoyalFootman-AllRaces) |
+<details>
+<summary><b>Show every set</b></summary>
+
+**Seer's**
+
+![Seer's](docs/img/seers.jpg)
+
+**Eisen / Kampf, polished**
+
+![Eisen / Kampf, polished](docs/img/kampf.jpg)
+
+**Bone**
+
+![Bone](docs/img/bone.jpg)
+
+**Lizard**
+
+![Lizard](docs/img/lizard.jpg)
+
+**Scale**
+
+![Scale](docs/img/scale.jpg)
+
+**Leather**
+
+![Leather](docs/img/leather.jpg)
+
+**Royal Squire's (and Banded, Kingdom, San d'Orian, Iron Ram)**
+
+![Royal Squire's (and Banded, Kingdom, San d'Orian, Iron Ram)](docs/img/rsq.jpg)
+
+**Mercenary Captain's and Doublet (and Cotton, Linen, Wool, Great, Federation)**
+
+![Mercenary Captain's and Doublet (and Cotton, Linen, Wool, Great, Federation)](docs/img/mcpt.jpg)
 
 **Legionnaire's**
-![Legionnaire's, all races](docs/images/allraces-set-legion-20261106b.png)
 
-**Royal Footman's tunic and clogs, Legionnaire's circlet**
-![Royal Footman's, all races](docs/images/allraces-set-footman-20261106b.png)
+![Legionnaire's](docs/img/legion.jpg)
+
+**Royal Footman's Tunic and Clogs (Kingdom Tunic), Legionnaire's Circlet**
+
+![Royal Footman's Tunic and Clogs (Kingdom Tunic), Legionnaire's Circlet](docs/img/footman.jpg)
+
+</details>
+
+### Chocobo, Field and Fishing
+
+The crafting and gathering sets.
+
+[![Chocobo, Field, Fishing](https://img.shields.io/badge/Download-Chocobo%2C_Field%2C_Fishing-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-ChocoFieldFishing.7z)
+
+<details>
+<summary><b>Show every set</b></summary>
+
+**Field**
+
+![Field](docs/img/ffc_field.jpg)
+
+**Fisherman's / Angler's**
+
+![Fisherman's / Angler's](docs/img/ffc_fishing.jpg)
+
+**Fisherman's Apron**
+
+![Fisherman's Apron](docs/img/ffc_apron.jpg)
+
+**Fisherman's Smock and Cuffs**
+
+![Fisherman's Smock and Cuffs](docs/img/ffc_smock.jpg)
+
+**Chocobo (Jack Coat, Gloves, Hose, Boots)**
+
+![Chocobo (Jack Coat, Gloves, Hose, Boots)](docs/img/ffc_chocobo.jpg)
+
+**Chocobo Shirt**
+
+![Chocobo Shirt](docs/img/ffc_chocoshirt.jpg)
+
+**Chocobo Suit and Masque**
+
+![Chocobo Suit and Masque](docs/img/ffc_chocosuit.jpg)
+
+</details>
+
+<sub>Every picture: original on top, new below.</sub>
 
 ---
 
-## Install
+## Install with Pivot
 
-1. Copy the folder into your Pivot `DATs` folder. It sits next to `NextHD`, `XiView` and
-   the rest. You end up with, for example:
+1. **Unzip.** Open the `.7z` (Windows 11 opens it directly; otherwise use [7-Zip](https://www.7-zip.org/)).
+   Copy the folder inside into your Pivot `DATs` folder, next to `NextHD`:
 
    ```
-   <your DATs folder>\DhalmelCow-HD\ROM\5\15.DAT
+   C:\PhoenixXI\polplugins\DATs\
    ```
 
-2. In game type `/pivot`, click **+** on the mod, and **drag it to the top of the list**.
+2. **Turn it on.** In game type `/pivot` and click **+** on each mod folder.
 
-3. Restart the game.
+3. **Put them in order.** Pivot uses the **first** folder in the list that has a file, so
+   drag them into this order, top to bottom:
 
-That's it.
+   | order | folder | why |
+   |---|---|---|
+   | 1 | `DhalmelCow-HD` **or** `DhalmelShaft-HD` | only one Dhalmel can show; uncheck the other |
+   | 2 | `BastokPride` | **Bastok Pride overwrites HD**: it has to sit above `AutoHD` |
+   | 3 | `AutoHD` | all the HD gear |
+   | 4 | `NextHD` and any other HD packs | everything else |
 
-**Why the top?** Pivot uses the first folder in the list that has the file. If NextHD is
-above your mod, you see NextHD's Dhalmel. Mod on top, you see the mod.
+   Took the **Everything** download? It's one folder, `CowMods`, with Bastok Pride already
+   on top: put it where `BastokPride` and `AutoHD` would go.
 
-**Want the other mod instead?** Put both in. Whichever is higher wins. Drag to swap.
+4. **Restart the game.**
 
-**Turn it off:** uncheck it in `/pivot`, or delete the folder. Nothing else to undo.
+**Mixing HD downloads?** The HD parts (RSE, AF, Other Gear, Chocobo/Field/Fishing) all
+unpack into the same `AutoHD` folder and never clash. Unzip them on top of each other.
 
----
+**Turn something off:** uncheck it in `/pivot`, or delete its folder. Nothing else to undo.
 
-## Which file do I take?
-
-The HD mods give you NextHD's sharper textures. The retail mods give you the plain game
-textures. Same cow, same neck, same animations. Only the texture resolution differs.
-
-Take the HD one if you run any HD DAT pack. Take the retail one if you don't.
-Wrong pick costs you nothing but sharpness.
-
----
-
-## Build your own
-
-[`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) makes these from any Dhalmel DAT.
-The output always goes in its own folder, never into NextHD's.
-
-```powershell
-git clone https://github.com/cowrevenge/ffxi_modder
-cd ffxi_modder
-cargo run --release -- "<your>\ROM\5\15.DAT" --check                          # must say byte-identical
-cargo run --release -- "<your>\ROM\5\15.DAT" out.DAT                          # neck
-cargo run --release --bin dhalmel_cow -- "<your>\ROM\5\15.DAT" out.DAT        # cow
-```
-
-Feed it your retail `ROM\5\15.DAT` for a retail build, or NextHD's copy for an HD build.
-Run `--check` first: if the writer can't reproduce your file byte for byte, don't trust a
-mod built from it.
-
-A rebuild won't be bit-identical to the files here (compiler float noise, invisible in game).
-The files in this repo are the ones that were rendered and checked. Prefer them.
-
-`ROM\5\15.DAT` is where the Dhalmel lives on this install (model 332, DAT id 1632). Your
-install can map it elsewhere: see `ffxi_modder`'s README to resolve it.
+<sub>Made for Phoenix: the files sit where Phoenix's client keeps each item. Another
+server's client can map items to other files.</sub>
 
 ---
 
-## Files
+## Behind the mods
 
-Every DAT and its hash is in [`SHA256SUMS.txt`](SHA256SUMS.txt).
+- Tools: [`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder) (GPL-3.0, no game data).
+- Every mod's files, one folder per mod: [`retail/`](retail) and [`nexthd/`](nexthd), with hashes in [`SHA256SUMS.txt`](SHA256SUMS.txt).
+- Untouched originals: [`original/`](original).
 
-| | |
-|---|---|
-| retail mods | [`retail/`](retail) |
-| HD mods | [`nexthd/`](nexthd) |
-| untouched originals, both bases | [`original/`](original) |
-| what's winning in your Pivot | `tools\verify-pivot.ps1 -DatPath ROM\5\15.DAT` |
-
-```powershell
-Get-FileHash -Algorithm SHA256 .\retail\DhalmelCow\ROM\5\15.DAT
-```
-
----
-
-## Legal
-
-Everything here derives from Square Enix retail game data: the mods are that model with
-sections swapped, the originals are unaltered. Shared in the same spirit as the HD DAT
-overlays that already circulate in the FFXI community. The tooling is GPL-3.0 and lives in
-[`ffxi_modder`](https://github.com/cowrevenge/ffxi_modder), which contains no game data.
+<sub>Everything here is derived from Square Enix retail game data and shared in the same
+spirit as the HD DAT overlays that already circulate in the FFXI community.</sub>
