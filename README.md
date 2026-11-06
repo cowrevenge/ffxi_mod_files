@@ -34,8 +34,9 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 
 ## Section 2: Bastok Pride and HD, everything at once
 
-One folder with **Bastok Pride and all the HD gear** from Section 3, already merged
-(Bastok Pride wins where they overlap). This is the easy pick.
+One folder with **Bastok Pride and the HD sets** from Section 3, already merged
+(Bastok Pride wins where they overlap). This is the easy pick. For the rest of the gear,
+add **Everything Else** from Section 3 into the same folder.
 
 [![Everything (Bastok Pride + HD)](https://img.shields.io/badge/Download-Everything_%28Bastok_Pride_%2B_HD%29-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Everything-BastokPride-and-HD.7z)
 
@@ -65,6 +66,17 @@ female chests on Hume F, Elvaan F and Mithra get the fuller bust.
 [![All HD (no Bastok Pride)](https://img.shields.io/badge/Download-All_HD_%28no_Bastok_Pride%29-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-All.7z)
 
 Or grab just the part you want:
+
+### Everything Else (Hume male, other races coming)
+
+Every other armour look in the game that isn't in the sections below: 1,458 looks (head,
+body, hands, legs, feet), about 6,000 items. **Hume male only for now**; the other races
+and genders come next. Too big to fit in "All HD", so it is its own download: unzip it
+into the same  folder.
+
+[![Everything Else](https://img.shields.io/badge/Download-Everything_Else-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-EverythingElse.7z)
+
+![Sample of Everything Else, original top, new below](docs/img/everything-else-sample.jpg)
 
 ### RSE
 
@@ -294,7 +306,7 @@ The crafting and gathering sets.
 
 4. **Restart the game.**
 
-**Mixing HD downloads?** The HD parts (RSE, AF, Other Gear, Chocobo/Field/Fishing) all
+**Mixing HD downloads?** The HD parts (Everything Else, RSE, AF, Other Gear, Chocobo/Field/Fishing) all
 unpack into the same `AutoHD` folder and never clash. Unzip them on top of each other.
 
 **Turn something off:** uncheck it in `/pivot`, or delete its folder. Nothing else to undo.

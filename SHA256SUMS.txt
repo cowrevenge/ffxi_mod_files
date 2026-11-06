@@ -2899,3 +2899,4 @@ f800f03aa4d707716a3462c591b90dfb2af158d5bf2811b512f411fe00d73868  retail/AutoHD-
 d40bcdb6c1d3bbb5761d7f470b62d829f0aa2fdac1c5579e29a097e321806070  retail/AutoHD-AllGear-AllRaces/ROM/343/50.DAT
 d5e9aa31dec3835274587c8d1c63659efd52e7c056e71b93f7ca4dddc43e8a43  retail/AutoHD-AllGear-AllRaces/ROM/328/126.DAT
 8005e9f0168bd6b25d605060de9c3523cf92d453b1ae6f76eec0634c8f334a8c  retail/AutoHD-AllGear-AllRaces/ROM/312/28.DAT
+dd614038523fa4e4e4a6ce6f73b0e272e8bd1e62a3addf521a9f9db2b28fb956  downloads/HD-EverythingElse.7z
