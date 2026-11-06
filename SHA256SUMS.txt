@@ -10995,3 +10995,13 @@ e43255bfeffc199261b0fc03e14fb949295928308c59336c8f6828a8aa110391  retail/AutoHD-
 896bf4d23944df4ff9880616e1d37d4a1558c6c86c9edec8558ff149cb0ea933  retail/AutoHD-AllGear-AllRaces/ROM/270/111.DAT
 d06b5c486bdf4317aaacf25ef97082a0a8e1dbc719569ef513c18727c47d0139  retail/AutoHD-AllGear-AllRaces/ROM/270/112.DAT
 90486dd83ab9b04df8d7334c6b294175b133d686a37a9e90c0b690f9f962ca55  retail/AutoHD-AllGear-AllRaces/ROM/272/13.DAT
+78efebe0f50b199b7a603fa39254cf0c8ca4eeef2d2bfea5a4a9da4b382d119e  retail/AutoHD-AllGear-AllRaces/ROM/272/14.DAT
+5b84ae68b2f8a3507fcd973276fccb1f1ba1f38f58966d27cba1a3ef3d7813b2  retail/AutoHD-AllGear-AllRaces/ROM/272/15.DAT
+157ad4b60514b7aecfe3cba7014b3e03ed9a4767ac6f3e248b9ca48c44f8e804  retail/AutoHD-AllGear-AllRaces/ROM/272/16.DAT
+9ba749dd4971495df83aace3acf27182791868bc033e2725c72c673f992ced87  retail/AutoHD-AllGear-AllRaces/ROM/272/17.DAT
+bb08e999baedcfba5b691d2844729cb8754a396e4b1fe9dcc2470171bb37bfda  retail/AutoHD-AllGear-AllRaces/ROM/272/18.DAT
+0109be9259d6c62d2ec3ef9a0af90d1f8a5c7d5ed54acde63034c23e34c895a0  retail/AutoHD-AllGear-AllRaces/ROM/272/19.DAT
+2ecb701f03943c0cd2ce9c903807dfa37d92a67fc2cbc00de6350799fe7f1dc2  retail/AutoHD-AllGear-AllRaces/ROM/272/20.DAT
+8d51bfd414beedd68161ab108a95a4c627113de3aff8c07ca7af0493523b7480  retail/AutoHD-AllGear-AllRaces/ROM/272/21.DAT
+b80eefdf254a3f343c8a185af6ef2c03e415a0ef07583d4446c4bbcaaac3142e  retail/AutoHD-AllGear-AllRaces/ROM/272/22.DAT
+e8ec57ade578e9ac7a24f3e1ddb115cb9d2e0924b1b59f7b306d7e43948c23a0  retail/AutoHD-AllGear-AllRaces/ROM/272/23.DAT
