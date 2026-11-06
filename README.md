@@ -72,7 +72,7 @@ Or grab just the part you want:
 Every other armour look in the game that isn't in the sections below: 1,458 looks (head,
 body, hands, legs, feet), about 6,000 items. **Hume male only for now**; the other races
 and genders come next. Too big to fit in "All HD", so it is its own download: unzip it
-into the same  folder.
+into the same `AutoHD` folder.
 
 [![Everything Else](https://img.shields.io/badge/Download-Everything_Else-8250df?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/HD-EverythingElse.7z)
 
