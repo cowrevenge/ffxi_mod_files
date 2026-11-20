@@ -10,6 +10,30 @@ Drop the folders into Pivot and play. The game's own files are never touched, an
 
 ---
 
+## Install ALL!
+
+**One app that downloads and installs everything for you** (HD + Cow + Jelly), for Windows and Linux.
+
+[![Install ALL! for Windows](https://img.shields.io/badge/Download-Install_ALL!_Windows-2ea44f?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL.exe)
+[![Install ALL! for Linux](https://img.shields.io/badge/Download-Install_ALL!_Linux-2ea44f?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL-linux)
+
+- Finds your game folder on its own (or **Browse**; it only accepts a folder with Pivot in it).
+- **Download** Cow, Shafty, Jelly Marker and each AutoHD race. One download at a time, with
+  progress and speed; the rest wait their turn.
+- Puts every mod in the right Pivot folder and turns it on in the right order.
+- **Open Pivot**: drag the overlays into order, switch them on or off. Close the game before saving.
+
+On Linux, make it runnable first: `chmod +x InstallALL-linux`. Windows may warn about an
+unknown app: click **More info** then **Run anyway**.
+
+<p align="center">
+<img src="docs/img/installall-m.png" width="32%"> <img src="docs/img/installall-p.png" width="32%"> <img src="docs/img/installall-b.png" width="32%">
+</p>
+
+<sub>Rather do it by hand? See [Install with Pivot](#install-with-pivot) below.</sub>
+
+---
+
 ## Dhalmel Mods
 
 Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
@@ -159,6 +183,8 @@ One download per race, and each one already includes Bastok Pride.
 ---
 
 ## Install with Pivot
+
+The easy way is [Install ALL!](#install-all). By hand:
 
 1. **Download** the race downloads you want. Take every race to see everyone around you in HD,
    or just the races you play.
