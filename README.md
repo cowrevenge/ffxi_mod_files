@@ -35,10 +35,13 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 ## Jelly Front Marker
 
 Every jelly (68 mobs share one model: Dark Aspic, Acid Grease, Agar Agar, Bavarois...) gets
-its **whole front tentacle reshaded bright red**, so THF can tell at a glance whether they're behind
-it for Sneak Attack / Trick Attack. From behind it looks completely normal. One file,
-[`retail/JellyFrontMarker`](retail/JellyFrontMarker) (`ROM\4\123.DAT`): drop it into your
-`AutoHD` folder.
+its **whole front tentacle reshaded bright red**, so THF can tell at a glance whether they're
+behind it for Sneak Attack / Trick Attack. From behind it looks completely normal.
+
+[![Jelly Marker](https://img.shields.io/badge/Download-Jelly_Marker-c0392b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/JellyMarker.7z)
+
+It unpacks into its **own `JellyMarker` folder** (not `AutoHD`). Switch it on in `/pivot` and
+keep it above `NextHD`.
 
 ![Jelly front marker](docs/img/jelly-front-marker-v2.jpg)
 
@@ -177,8 +180,9 @@ One download per race, and each one already includes Bastok Pride.
    | order | folder | why |
    |---|---|---|
    | 1 | `DhalmelCow-HD` **or** `DhalmelShaft-HD` | only one Dhalmel can show; uncheck the other |
-   | 2 | `AutoHD` | all the HD gear, Bastok Pride included |
-   | 3 | `NextHD` and any other HD packs | everything else |
+   | 2 | `JellyMarker` | the jelly front marker |
+   | 3 | `AutoHD` | all the HD gear, Bastok Pride included |
+   | 4 | `NextHD` and any other HD packs | everything else |
 
 5. **Restart the game.**
 
