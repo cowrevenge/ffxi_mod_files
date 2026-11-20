@@ -15,10 +15,10 @@ Drop the folders into Pivot and play. The game's own files are never touched, an
 **One app that downloads and installs everything for you** (HD + Cow + Jelly), for Windows and Linux.
 
 <p>
-<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL.exe"><img src="https://img.shields.io/badge/%E2%AC%87%20Download%20Install%20ALL!%20for%20Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Download Install ALL! for Windows"></a>
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL.exe"><img src="docs/img/btn-installall-windows.png" width="440" alt="Download Install ALL! for Windows"></a>
 </p>
 <p>
-<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL-linux"><img src="https://img.shields.io/badge/%E2%AC%87%20Download%20Install%20ALL!%20for%20Linux-2ea44f?style=for-the-badge&logo=linux&logoColor=white" height="44" alt="Download Install ALL! for Linux"></a>
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL-linux"><img src="docs/img/btn-installall-linux.png" width="440" alt="Download Install ALL! for Linux"></a>
 </p>
 
 - Finds your game folder on its own (or **Browse**; it only accepts a folder with Pivot in it).
