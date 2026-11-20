@@ -14,13 +14,19 @@ Drop the folders into Pivot and play. The game's own files are never touched, an
 
 **One app that downloads and installs everything for you** (HD + Cow + Jelly), for Windows and Linux.
 
-[![Install ALL! for Windows](https://img.shields.io/badge/Download-Install_ALL!_Windows-2ea44f?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL.exe)
-[![Install ALL! for Linux](https://img.shields.io/badge/Download-Install_ALL!_Linux-2ea44f?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL-linux)
+<p>
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL.exe"><img src="https://img.shields.io/badge/%E2%AC%87%20Download%20Install%20ALL!%20for%20Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white" height="44" alt="Download Install ALL! for Windows"></a>
+</p>
+<p>
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL-linux"><img src="https://img.shields.io/badge/%E2%AC%87%20Download%20Install%20ALL!%20for%20Linux-2ea44f?style=for-the-badge&logo=linux&logoColor=white" height="44" alt="Download Install ALL! for Linux"></a>
+</p>
 
 - Finds your game folder on its own (or **Browse**; it only accepts a folder with Pivot in it).
 - **Download** Cow, Shafty, Jelly Marker and each AutoHD race. One download at a time, with
   progress and speed; the rest wait their turn.
 - Puts every mod in the right Pivot folder and turns it on in the right order.
+- Already downloaded? It reads your Pivot settings and shows **Enable** / **Disable** instead.
+  Cow and Shafty can both be downloaded, but only one can be enabled.
 - **Open Pivot**: drag the overlays into order, switch them on or off. Close the game before saving.
 
 On Linux, make it runnable first: `chmod +x InstallALL-linux`. Windows may warn about an
