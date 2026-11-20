@@ -50,6 +50,18 @@ Boots HD** (the BLU outfit). Fuller bust on Hume F, Elvaan F and Mithra. Every r
 
 ---
 
+## Jelly Front Marker
+
+Every jelly (68 mobs share one model: Dark Aspic, Acid Grease, Agar Agar, Bavarois...) gets
+its **front tentacle reshaded bright red**, so THF can tell at a glance whether they're behind
+it for Sneak Attack / Trick Attack. From behind it looks completely normal. One file,
+[`retail/JellyFrontMarker`](retail/JellyFrontMarker) (`ROM\4\123.DAT`): drop it into your
+`AutoHD` folder.
+
+![Jelly front marker](docs/img/jelly-front-marker.jpg)
+
+---
+
 ## AutoHD
 
 Every armour look in the game (head, body, hands, legs, feet) with the HD pass: each piece
