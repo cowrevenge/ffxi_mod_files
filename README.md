@@ -65,20 +65,26 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 
 ## Jelly Marker
 
-The black jelly (the plain "Slime" model, model 292: Carrion Slime, Maltha, Sewer Syrup,
-Slime Mold, Undead Slime, Mucoid Mass and more) gets a **red front tentacle with a big yellow
-smiley** and a **green rear tentacle with a rooster tail**, so THF can tell at a glance whether
-they're behind it for Sneak Attack / Trick Attack. The rest of the body keeps its own colour.
+Every jelly gets a **hood on its front tentacle with a big yellow smiley** and a **green hood
+on its rear tentacle with a rooster tail**, so THF can tell at a glance whether they're behind
+it for Sneak Attack / Trick Attack. Only the hoods are new: each jelly's body keeps its own colour.
 
-Blue, red and other coloured slimes and clots are separate models with their own files: this
-mod doesn't touch them, so they keep their colours (and don't get the marker).
+| jelly | front hood | rear hood |
+|---|---|---|
+| Black jelly (the common one: Carrion Slime, Maltha, Sewer Syrup, Slime Mold...) | red | green |
+| Blobdingnag (red) | purple, so it shows on red | green |
+| Clot, red/gold | purple, so it shows on red | green |
+| Clot, olive with purple tips | red | green |
+
+<sub>The Dragon Quest slimes (blue, red, black) are a different model with their face already on
+the front, so they're left as they are.</sub>
 
 [![Jelly Marker](https://img.shields.io/badge/Download-Jelly_Marker-c0392b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/JellyMarker.7z)
 
 It unpacks into its **own `JellyMarker` folder** (not `AutoHD`). Switch it on in `/pivot` and
 keep it above `NextHD`.
 
-![Jelly marker: front, side, back](docs/img/jelly-marker-v6.jpg)
+![Jelly marker on three jellies, front and back](docs/img/jelly-marker-colors-v7.jpg)
 
 ---
 
