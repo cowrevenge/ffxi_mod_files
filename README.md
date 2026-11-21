@@ -25,7 +25,8 @@ Drop the folders into Pivot and play. The game's own files are never touched, an
 - **Download** Cow, Shafty, Jelly Marker and each AutoHD race. One download at a time, with
   progress and speed; the rest wait their turn.
 - Puts every mod in the right Pivot folder and turns it on in the right order.
-- Already downloaded? It reads your Pivot settings and shows **Enable** / **Disable** instead.
+- Already downloaded? It reads your Pivot settings and shows **Enable** / **Disable** instead,
+  and an **Update** button when a newer version is on GitHub.
   Cow and Shafty can both be downloaded, but only one can be enabled.
 - **Open Pivot**: drag the overlays into order, switch them on or off. Close the game before saving.
 
@@ -65,15 +66,16 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 ## Jelly Front Marker
 
 Every jelly (68 mobs share one model: Dark Aspic, Acid Grease, Agar Agar, Bavarois...) gets
-its **whole front tentacle reshaded bright red with a big yellow smiley on it**, so THF can tell at a glance whether they're
-behind it for Sneak Attack / Trick Attack. From behind it looks completely normal.
+a **red front tentacle with a big yellow smiley** and a **green rear tentacle with a rooster
+tail**, so THF can tell at a glance whether they're behind it for Sneak Attack / Trick Attack.
+A jelly that's already red gets a purple front; one that's already green gets a purple rear.
 
 [![Jelly Marker](https://img.shields.io/badge/Download-Jelly_Marker-c0392b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/JellyMarker.7z)
 
 It unpacks into its **own `JellyMarker` folder** (not `AutoHD`). Switch it on in `/pivot` and
 keep it above `NextHD`.
 
-![Jelly front marker](docs/img/jelly-front-marker-v3.jpg)
+![Jelly marker: front, side, back](docs/img/jelly-marker-v6.jpg)
 
 ---
 
