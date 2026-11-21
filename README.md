@@ -15,10 +15,10 @@ Drop the folders into Pivot and play. The game's own files are never touched, an
 **One app that downloads and installs everything for you** (HD + Cow + Jelly), for Windows and Linux.
 
 <p>
-<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL.exe"><img src="docs/img/btn-installall-windows.png" width="440" alt="Download Install ALL! for Windows"></a>
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL.exe"><img src="docs/img/btn-installall-windows.png" width="324" alt="Download Install ALL! for Windows"></a>
 </p>
 <p>
-<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL-linux"><img src="docs/img/btn-installall-linux.png" width="440" alt="Download Install ALL! for Linux"></a>
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/InstallALL-linux"><img src="docs/img/btn-installall-linux.png" width="284" alt="Download Install ALL! for Linux"></a>
 </p>
 
 - Finds your game folder on its own (or **Browse**; it only accepts a folder with Pivot in it).
@@ -47,7 +47,7 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 
 ### Real Cows!
 
-[![Real Cows](https://img.shields.io/badge/Download-Real_Cows-8b5a2b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-RealCows.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-RealCows.7z"><img src="docs/img/btn-realcows.png" width="206" alt="Download Real Cows"></a>
 
 ![Real Cows](docs/images/dhalmel-cow-preview.png)
 
@@ -55,7 +55,7 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 
 ### Gag Model (Shafty)
 
-[![Shafty](https://img.shields.io/badge/Download-Shafty-8b5a2b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-Shafty.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/Dhalmel-Shafty.7z"><img src="docs/img/btn-shafty.png" width="183" alt="Download Shafty"></a>
 
 ![Shafty](docs/images/dhalmel-neck-ingame.png)
 
@@ -79,7 +79,7 @@ it for Sneak Attack / Trick Attack. Only the hoods are new: each jelly's body ke
 <sub>The Dragon Quest slimes (blue, red, black) are a different model with their face already on
 the front, so they're left as they are.</sub>
 
-[![Jelly Marker](https://img.shields.io/badge/Download-Jelly_Marker-c0392b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/JellyMarker.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/JellyMarker.7z"><img src="docs/img/btn-jellymarker.png" width="225" alt="Download Jelly Marker"></a>
 
 It unpacks into its **own `JellyMarker` folder** (not `AutoHD`). Switch it on in `/pivot` and
 keep it above `NextHD`.
@@ -115,7 +115,7 @@ One download per race, and each one already includes Bastok Pride.
 
 ### Hume (male)
 
-[![Hume (male)](https://img.shields.io/badge/Download-Hume_%28male%29-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-HumeM.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-HumeM.7z"><img src="docs/img/btn-humem.png" width="235" alt="Download Hume (male)"></a>
 
 **Artifact armour, all 22 jobs**
 
@@ -127,7 +127,7 @@ One download per race, and each one already includes Bastok Pride.
 
 ### Hume (female)
 
-[![Hume (female)](https://img.shields.io/badge/Download-Hume_%28female%29-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-HumeF.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-HumeF.7z"><img src="docs/img/btn-humef.png" width="257" alt="Download Hume (female)"></a>
 
 **Artifact armour, all 22 jobs**
 
@@ -139,7 +139,7 @@ One download per race, and each one already includes Bastok Pride.
 
 ### Elvaan (male)
 
-[![Elvaan (male)](https://img.shields.io/badge/Download-Elvaan_%28male%29-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-ElvaanM.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-ElvaanM.7z"><img src="docs/img/btn-elvaanm.png" width="244" alt="Download Elvaan (male)"></a>
 
 **Artifact armour, all 22 jobs**
 
@@ -151,7 +151,7 @@ One download per race, and each one already includes Bastok Pride.
 
 ### Elvaan (female)
 
-[![Elvaan (female)](https://img.shields.io/badge/Download-Elvaan_%28female%29-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-ElvaanF.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-ElvaanF.7z"><img src="docs/img/btn-elvaanf.png" width="266" alt="Download Elvaan (female)"></a>
 
 **Artifact armour, all 22 jobs**
 
@@ -163,7 +163,7 @@ One download per race, and each one already includes Bastok Pride.
 
 ### Tarutaru (male and female)
 
-[![Tarutaru (male and female)](https://img.shields.io/badge/Download-Tarutaru_%28male_and_female%29-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-Taru.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-Taru.7z"><img src="docs/img/btn-taru.png" width="187" alt="Download Tarutaru (male and female)"></a>
 
 **Artifact armour, all 22 jobs**
 
@@ -175,7 +175,7 @@ One download per race, and each one already includes Bastok Pride.
 
 ### Mithra
 
-[![Mithra](https://img.shields.io/badge/Download-Mithra-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-Mithra.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-Mithra.7z"><img src="docs/img/btn-mithra.png" width="183" alt="Download Mithra"></a>
 
 **Artifact armour, all 22 jobs**
 
@@ -187,7 +187,7 @@ One download per race, and each one already includes Bastok Pride.
 
 ### Galka
 
-[![Galka](https://img.shields.io/badge/Download-Galka-1f6feb?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-Galka.7z)
+<a href="https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/CowMods-Galka.7z"><img src="docs/img/btn-galka.png" width="183" alt="Download Galka"></a>
 
 **Artifact armour, all 22 jobs**
 
