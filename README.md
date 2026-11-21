@@ -63,12 +63,15 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 
 ---
 
-## Jelly Front Marker
+## Jelly Marker
 
-Every jelly (68 mobs share one model: Dark Aspic, Acid Grease, Agar Agar, Bavarois...) gets
-a **red front tentacle with a big yellow smiley** and a **green rear tentacle with a rooster
-tail**, so THF can tell at a glance whether they're behind it for Sneak Attack / Trick Attack.
-A jelly that's already red gets a purple front; one that's already green gets a purple rear.
+The black jelly (the plain "Slime" model, model 292: Carrion Slime, Maltha, Sewer Syrup,
+Slime Mold, Undead Slime, Mucoid Mass and more) gets a **red front tentacle with a big yellow
+smiley** and a **green rear tentacle with a rooster tail**, so THF can tell at a glance whether
+they're behind it for Sneak Attack / Trick Attack. The rest of the body keeps its own colour.
+
+Blue, red and other coloured slimes and clots are separate models with their own files: this
+mod doesn't touch them, so they keep their colours (and don't get the marker).
 
 [![Jelly Marker](https://img.shields.io/badge/Download-Jelly_Marker-c0392b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/JellyMarker.7z)
 
