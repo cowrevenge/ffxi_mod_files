@@ -65,7 +65,7 @@ Pick **one**. Both replace the same Dhalmel, so only one can show at a time.
 ## Jelly Front Marker
 
 Every jelly (68 mobs share one model: Dark Aspic, Acid Grease, Agar Agar, Bavarois...) gets
-its **whole front tentacle reshaded bright red**, so THF can tell at a glance whether they're
+its **whole front tentacle reshaded bright red with a big yellow smiley on it**, so THF can tell at a glance whether they're
 behind it for Sneak Attack / Trick Attack. From behind it looks completely normal.
 
 [![Jelly Marker](https://img.shields.io/badge/Download-Jelly_Marker-c0392b?style=for-the-badge)](https://github.com/cowrevenge/ffxi_mod_files/raw/main/downloads/JellyMarker.7z)
@@ -73,7 +73,7 @@ behind it for Sneak Attack / Trick Attack. From behind it looks completely norma
 It unpacks into its **own `JellyMarker` folder** (not `AutoHD`). Switch it on in `/pivot` and
 keep it above `NextHD`.
 
-![Jelly front marker](docs/img/jelly-front-marker-v2.jpg)
+![Jelly front marker](docs/img/jelly-front-marker-v3.jpg)
 
 ---
 
