@@ -84,7 +84,7 @@ the front, so they're left as they are.</sub>
 It unpacks into its **own `JellyMarker` folder** (not `AutoHD`). Switch it on in `/pivot` and
 keep it above `NextHD`.
 
-![Jelly marker on three jellies, front and back](docs/img/jelly-marker-colors-v9.jpg)
+![Jelly marker on three jellies, front and back](docs/img/jelly-marker-colors-v10.jpg)
 
 ---
 
